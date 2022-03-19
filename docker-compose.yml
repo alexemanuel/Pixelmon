@@ -1,0 +1,10 @@
+version: "3.9"
+
+services:
+  minecraft:
+    image: alexemanuel27/pixelmon:1.0 
+    volumes:
+      - ./server:/root/minecraft_server
+    ports:
+      - 25565:25565
+
