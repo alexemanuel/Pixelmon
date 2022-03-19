@@ -1,7 +1,7 @@
 version: "3.9"
 
 services:
-  minecraft:
+  pixelmon-container:
     image: alexemanuel27/pixelmon:1.0 
     volumes:
       - ./server:/root/minecraft_server
