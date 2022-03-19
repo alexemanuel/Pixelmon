@@ -1,0 +1,101 @@
+[20:11:17] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLServerTweaker
+[20:11:17] [main/INFO] [LaunchWrapper]: Using primary tweak class name net.minecraftforge.fml.common.launcher.FMLServerTweaker
+[20:11:17] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLServerTweaker
+[20:11:17] [main/INFO] [FML]: Forge Mod Loader version 14.23.5.2859 for Minecraft 1.12.2 loading
+[20:11:17] [main/INFO] [FML]: Java is OpenJDK 64-Bit Server VM, version 1.8.0_312, running on Linux:amd64:5.13.0-35-generic, installed at /usr/lib/jvm/java-8-openjdk-amd64/jre
+[20:11:17] [main/INFO] [FML]: Searching /home/gabs/Área de Trabalho/server/./mods for mods
+[20:11:18] [main/WARN] [FML]: Found FMLCorePluginContainsFMLMod marker in Xaeros_Minimap_22.3.0_Forge_1.12.jar. This is not recommended, @Mods should be in a separate jar from the coremod.
+[20:11:18] [main/WARN] [FML]: The coremod XaeroMinimapPlugin (xaero.common.core.XaeroMinimapPlugin) is not signed!
+[20:11:18] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
+[20:11:18] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLDeobfTweaker
+[20:11:18] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
+[20:11:18] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
+[20:11:18] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
+[20:11:20] [main/INFO] [FML]: Found valid fingerprint for Minecraft Forge. Certificate fingerprint e3c3d50c7c986df74c645c0ac54639741c90a557
+[20:11:20] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
+[20:11:20] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
+[20:11:20] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLDeobfTweaker
+[20:11:21] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.TerminalTweaker
+[20:11:21] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.TerminalTweaker
+[20:11:22] [main/INFO] [STDOUT]: [xaero.common.core.transformer.ClassNodeTransformer:transform:26]: Transforming class pl net.minecraft.server.management.PlayerList
+[20:11:22] [main/INFO] [STDOUT]: [xaero.common.core.transformer.ClassNodeTransformer:transform:26]: Transforming class aed net.minecraft.entity.player.EntityPlayer
+[20:11:22] [main/INFO] [LaunchWrapper]: Launching wrapped minecraft {net.minecraft.server.MinecraftServer}
+[20:11:59] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Starting minecraft server version 1.12.2
+[20:12:00] [Server thread/INFO] [FML]: MinecraftForge v14.23.5.2859 Initialized
+[20:12:00] [Server thread/INFO] [FML]: Starts to replace vanilla recipe ingredients with ore ingredients.
+[20:12:00] [Server thread/INFO] [FML]: Invalid recipe found with multiple oredict ingredients in the same ingredient...
+[20:12:01] [Server thread/INFO] [FML]: Replaced 1227 ore ingredients
+[20:12:02] [Server thread/INFO] [FML]: Searching /home/gabs/Área de Trabalho/server/./mods for mods
+[20:12:04] [Server thread/INFO] [FML]: Forge Mod Loader has identified 7 mods to load
+[20:12:04] [Server thread/WARN] [FML]: Missing English translation for FML: assets/fml/lang/en_us.lang
+[20:12:05] [Server thread/WARN] [FML]: Missing English translation for xaerominimap: assets/xaerominimap/lang/en_us.lang
+[20:12:07] [Server thread/INFO] [FML]: Attempting connection with missing mods [minecraft, mcp, FML, forge, xaerominimap_core, pixelmon, xaerominimap] at CLIENT
+[20:12:07] [Server thread/INFO] [FML]: Attempting connection with missing mods [minecraft, mcp, FML, forge, xaerominimap_core, pixelmon, xaerominimap] at SERVER
+[20:12:09] [Server thread/INFO] [FML]: Processing ObjectHolder annotations
+[20:12:09] [Server thread/INFO] [FML]: Found 1168 ObjectHolder annotations
+[20:12:09] [Server thread/INFO] [FML]: Identifying ItemStackHolder annotations
+[20:12:09] [Server thread/INFO] [FML]: Found 0 ItemStackHolder annotations
+[20:12:10] [Server thread/INFO] [STDOUT]: [xaero.common.core.transformer.ClassNodeTransformer:transform:26]: Transforming class axw net.minecraft.world.chunk.Chunk
+[20:12:10] [Server thread/INFO] [FML]: Configured a dormant chunk cache size of 0
+[20:12:10] [Server thread/INFO] [Pixelmon]: Loading Pixelmon version 8.3.6
+[20:12:10] [Forge Version Check/INFO] [forge.VersionCheck]: [forge] Starting version check at http://files.minecraftforge.net/maven/net/minecraftforge/forge/promotions_slim.json
+[20:12:13] [Server thread/INFO] [Pixelmon]: Checking for migrations..
+[20:12:14] [Server thread/INFO] [Pixelmon]: Loading Advancements
+[20:12:15] [Forge Version Check/INFO] [forge.VersionCheck]: [forge] Found status: UP_TO_DATE Target: null
+[20:12:15] [Forge Version Check/INFO] [forge.VersionCheck]: [pixelmon] Starting version check at https://reforged.gg/forge/update.json
+[20:12:15] [Forge Version Check/INFO] [forge.VersionCheck]: [pixelmon] Found status: OUTDATED Target: 8.3.7
+[20:12:22] [Server thread/INFO] [FML]: Applying holder lookups
+[20:12:22] [Server thread/INFO] [FML]: Holder lookups applied
+[20:12:22] [Server thread/INFO] [FML]: Applying holder lookups
+[20:12:22] [Server thread/INFO] [FML]: Holder lookups applied
+[20:12:23] [Server thread/INFO] [FML]: Applying holder lookups
+[20:12:23] [Server thread/INFO] [FML]: Holder lookups applied
+[20:12:23] [Server thread/INFO] [FML]: Applying holder lookups
+[20:12:23] [Server thread/INFO] [FML]: Holder lookups applied
+[20:12:23] [Server thread/INFO] [FML]: Injecting itemstacks
+[20:12:23] [Server thread/INFO] [FML]: Itemstack injection complete
+[20:12:23] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Loading properties
+[20:12:23] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Default game type: SURVIVAL
+[20:12:23] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Generating keypair
+[20:12:24] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Starting Minecraft server on 25.72.119.30:25565
+[20:12:24] [Server thread/INFO] [net.minecraft.network.NetworkSystem]: Using epoll channel type
+[20:12:25] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[20:12:25] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer]: The server will make no attempt to authenticate usernames. Beware.
+[20:12:25] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[20:12:25] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer]: To change this, set "online-mode" to "true" in the server.properties file.
+[20:12:27] [Server thread/INFO] [FML]: Applying holder lookups
+[20:12:27] [Server thread/INFO] [FML]: Holder lookups applied
+[20:12:28] [Server thread/INFO] [Pixelmon]: Registering shop items.
+[20:12:28] [Server thread/INFO] [Pixelmon]: Registering NPCs.
+[20:12:28] [Server thread/INFO] [Pixelmon]: Registering structures.
+[20:12:29] [Server thread/INFO] [Pixelmon]: Registering all drops.
+[20:12:30] [Server thread/INFO] [Pixelmon]: Registering battle rules.
+[20:12:30] [Server thread/INFO] [Pixelmon]: Registering Pokémon stats.
+[20:12:32] [Server thread/INFO] [Pixelmon]: Registering quests.
+[20:12:33] [Server thread/INFO] [Pixelmon]: Loaded 39 Quests.
+[20:12:33] [Server thread/INFO] [xaero.common.MinimapLogs]: Loading Xaero's Minimap - Stage 1/2 (Server)
+[20:12:33] [Server thread/INFO] [FML]: Injecting itemstacks
+[20:12:33] [Server thread/INFO] [FML]: Itemstack injection complete
+[20:12:33] [Server thread/INFO] [Pixelmon]: Registering spawn sets.
+[20:12:37] [Server thread/INFO] [Pixelmon]: Registering raid spawning.
+[20:12:37] [Server thread/INFO] [xaero.common.MinimapLogs]: Loading Xaero's Minimap - Stage 2/2 (Server)
+[20:12:38] [Server thread/INFO] [FML]: Forge Mod Loader has successfully loaded 7 mods
+[20:12:38] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Preparing level "world"
+[20:12:38] [Server thread/INFO] [FML]: Injecting existing registry data into this server instance
+[20:12:41] [Server thread/INFO] [FML]: Applying holder lookups
+[20:12:41] [Server thread/INFO] [FML]: Holder lookups applied
+[20:12:41] [Server thread/INFO] [FML]: Loading dimension 0 (world) (net.minecraft.server.dedicated.DedicatedServer@170b2b55)
+[20:12:43] [Server thread/INFO] [net.minecraft.advancements.AdvancementList]: Loaded 734 advancements
+[20:12:43] [Server thread/INFO] [FML]: Loading dimension -1 (world) (net.minecraft.server.dedicated.DedicatedServer@170b2b55)
+[20:12:43] [Server thread/INFO] [FML]: Loading dimension 1 (world) (net.minecraft.server.dedicated.DedicatedServer@170b2b55)
+[20:12:43] [Server thread/INFO] [FML]: Loading dimension 72 (world) (net.minecraft.server.dedicated.DedicatedServer@170b2b55)
+[20:12:44] [Server thread/INFO] [FML]: Loading dimension 73 (world) (net.minecraft.server.dedicated.DedicatedServer@170b2b55)
+[20:12:44] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Preparing start region for level 0
+[20:12:45] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Preparing spawn area: 0%
+[20:12:46] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Preparing spawn area: 16%
+[20:12:48] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Preparing spawn area: 48%
+[20:12:48] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Done (10,260s)! For help, type "help" or "?"
+[20:12:49] [Server thread/INFO] [FML]: Unloading dimension -1
+[20:12:49] [Server thread/INFO] [FML]: Unloading dimension 1
+[20:12:49] [Server thread/INFO] [FML]: Unloading dimension 72
+[20:12:49] [Server thread/INFO] [FML]: Unloading dimension 73
