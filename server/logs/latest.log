@@ -1,485 +1,100 @@
-[19:05:39] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLServerTweaker
-[19:05:39] [main/INFO] [LaunchWrapper]: Using primary tweak class name net.minecraftforge.fml.common.launcher.FMLServerTweaker
-[19:05:39] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLServerTweaker
-[19:05:39] [main/INFO] [FML]: Forge Mod Loader version 14.23.5.2859 for Minecraft 1.12.2 loading
-[19:05:39] [main/INFO] [FML]: Java is OpenJDK 64-Bit Server VM, version 1.8.0_292, running on Linux:amd64:4.15.0-112-generic, installed at /usr/lib/jvm/java-8-openjdk-amd64/jre
-[19:05:39] [main/INFO] [FML]: Searching /home/gabs/Área de Trabalho/Pixelmon/server/./mods for mods
-[19:05:39] [main/WARN] [FML]: Found FMLCorePluginContainsFMLMod marker in Xaeros_Minimap_22.3.0_Forge_1.12.jar. This is not recommended, @Mods should be in a separate jar from the coremod.
-[19:05:39] [main/WARN] [FML]: The coremod XaeroMinimapPlugin (xaero.common.core.XaeroMinimapPlugin) is not signed!
-[19:05:39] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
-[19:05:39] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLDeobfTweaker
-[19:05:39] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
-[19:05:39] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
-[19:05:39] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
-[19:05:41] [main/INFO] [FML]: Found valid fingerprint for Minecraft Forge. Certificate fingerprint e3c3d50c7c986df74c645c0ac54639741c90a557
-[19:05:41] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
-[19:05:41] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
-[19:05:41] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLDeobfTweaker
-[19:05:42] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.TerminalTweaker
-[19:05:42] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.TerminalTweaker
-[19:05:42] [main/INFO] [STDOUT]: [xaero.common.core.transformer.ClassNodeTransformer:transform:26]: Transforming class pl net.minecraft.server.management.PlayerList
-[19:05:42] [main/INFO] [STDOUT]: [xaero.common.core.transformer.ClassNodeTransformer:transform:26]: Transforming class aed net.minecraft.entity.player.EntityPlayer
-[19:05:42] [main/INFO] [LaunchWrapper]: Launching wrapped minecraft {net.minecraft.server.MinecraftServer}
-[19:05:48] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Starting minecraft server version 1.12.2
-[19:05:48] [Server thread/INFO] [FML]: MinecraftForge v14.23.5.2859 Initialized
-[19:05:48] [Server thread/INFO] [FML]: Starts to replace vanilla recipe ingredients with ore ingredients.
-[19:05:49] [Server thread/INFO] [FML]: Invalid recipe found with multiple oredict ingredients in the same ingredient...
-[19:05:49] [Server thread/INFO] [FML]: Replaced 1227 ore ingredients
-[19:05:50] [Server thread/INFO] [FML]: Searching /home/gabs/Área de Trabalho/Pixelmon/server/./mods for mods
-[19:05:52] [Server thread/INFO] [FML]: Forge Mod Loader has identified 7 mods to load
-[19:05:52] [Server thread/WARN] [FML]: Missing English translation for FML: assets/fml/lang/en_us.lang
-[19:05:52] [Server thread/WARN] [FML]: Missing English translation for xaerominimap: assets/xaerominimap/lang/en_us.lang
-[19:05:53] [Server thread/INFO] [FML]: Attempting connection with missing mods [minecraft, mcp, FML, forge, xaerominimap_core, pixelmon, xaerominimap] at CLIENT
-[19:05:53] [Server thread/INFO] [FML]: Attempting connection with missing mods [minecraft, mcp, FML, forge, xaerominimap_core, pixelmon, xaerominimap] at SERVER
-[19:05:55] [Server thread/INFO] [FML]: Processing ObjectHolder annotations
-[19:05:55] [Server thread/INFO] [FML]: Found 1168 ObjectHolder annotations
-[19:05:55] [Server thread/INFO] [FML]: Identifying ItemStackHolder annotations
-[19:05:55] [Server thread/INFO] [FML]: Found 0 ItemStackHolder annotations
-[19:05:55] [Server thread/INFO] [STDOUT]: [xaero.common.core.transformer.ClassNodeTransformer:transform:26]: Transforming class axw net.minecraft.world.chunk.Chunk
-[19:05:56] [Server thread/INFO] [FML]: Configured a dormant chunk cache size of 0
-[19:05:56] [Server thread/INFO] [Pixelmon]: Loading Pixelmon version 8.3.6
-[19:05:56] [Forge Version Check/INFO] [forge.VersionCheck]: [pixelmon] Starting version check at https://reforged.gg/forge/update.json
-[19:05:58] [Forge Version Check/INFO] [forge.VersionCheck]: [pixelmon] Found status: OUTDATED Target: 8.3.7
-[19:05:58] [Forge Version Check/INFO] [forge.VersionCheck]: [forge] Starting version check at http://files.minecraftforge.net/maven/net/minecraftforge/forge/promotions_slim.json
-[19:06:00] [Server thread/INFO] [Pixelmon]: Checking for migrations..
-[19:06:00] [Server thread/INFO] [Pixelmon]: Loading Advancements
-[19:06:01] [Forge Version Check/INFO] [forge.VersionCheck]: [forge] Found status: UP_TO_DATE Target: null
-[19:06:05] [Server thread/INFO] [FML]: Applying holder lookups
-[19:06:05] [Server thread/INFO] [FML]: Holder lookups applied
-[19:06:06] [Server thread/INFO] [FML]: Applying holder lookups
-[19:06:06] [Server thread/INFO] [FML]: Holder lookups applied
-[19:06:07] [Server thread/INFO] [FML]: Applying holder lookups
-[19:06:07] [Server thread/INFO] [FML]: Holder lookups applied
-[19:06:07] [Server thread/INFO] [FML]: Applying holder lookups
-[19:06:07] [Server thread/INFO] [FML]: Holder lookups applied
-[19:06:07] [Server thread/INFO] [FML]: Injecting itemstacks
-[19:06:07] [Server thread/INFO] [FML]: Itemstack injection complete
-[19:06:07] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Loading properties
-[19:06:07] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Default game type: SURVIVAL
-[19:06:07] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Generating keypair
-[19:06:08] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Starting Minecraft server on 25.9.149.87:25565
-[19:06:08] [Server thread/INFO] [net.minecraft.network.NetworkSystem]: Using epoll channel type
-[19:06:08] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[19:06:08] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer]: The server will make no attempt to authenticate usernames. Beware.
-[19:06:08] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[19:06:08] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer]: To change this, set "online-mode" to "true" in the server.properties file.
-[19:06:10] [Server thread/INFO] [FML]: Applying holder lookups
-[19:06:10] [Server thread/INFO] [FML]: Holder lookups applied
-[19:06:12] [Server thread/INFO] [Pixelmon]: Registering shop items.
-[19:06:12] [Server thread/INFO] [Pixelmon]: Registering NPCs.
-[19:06:12] [Server thread/INFO] [Pixelmon]: Registering structures.
-[19:06:14] [Server thread/INFO] [Pixelmon]: Registering all drops.
-[19:06:15] [Server thread/INFO] [Pixelmon]: Registering battle rules.
-[19:06:15] [Server thread/INFO] [Pixelmon]: Registering Pokémon stats.
-[19:06:18] [Server thread/INFO] [Pixelmon]: Registering quests.
-[19:06:19] [Server thread/INFO] [Pixelmon]: Loaded 39 Quests.
-[19:06:19] [Server thread/INFO] [xaero.common.MinimapLogs]: Loading Xaero's Minimap - Stage 1/2 (Server)
-[19:06:19] [Server thread/INFO] [FML]: Injecting itemstacks
-[19:06:19] [Server thread/INFO] [FML]: Itemstack injection complete
-[19:06:20] [Server thread/INFO] [Pixelmon]: Registering spawn sets.
-[19:06:24] [Server thread/INFO] [Pixelmon]: Registering raid spawning.
-[19:06:24] [Server thread/INFO] [xaero.common.MinimapLogs]: Loading Xaero's Minimap - Stage 2/2 (Server)
-[19:06:25] [Server thread/INFO] [FML]: Forge Mod Loader has successfully loaded 7 mods
-[19:06:26] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Preparing level "world"
-[19:06:27] [Server thread/INFO] [FML]: Injecting existing registry data into this server instance
-[19:06:27] [Server thread/INFO] [FML]: Applying holder lookups
-[19:06:27] [Server thread/INFO] [FML]: Holder lookups applied
-[19:06:28] [Server thread/INFO] [FML]: Loading dimension 0 (world) (net.minecraft.server.dedicated.DedicatedServer@cdb8178)
-[19:06:29] [Server thread/INFO] [net.minecraft.advancements.AdvancementList]: Loaded 734 advancements
-[19:06:29] [Server thread/INFO] [FML]: Loading dimension -1 (world) (net.minecraft.server.dedicated.DedicatedServer@cdb8178)
-[19:06:29] [Server thread/INFO] [FML]: Loading dimension 1 (world) (net.minecraft.server.dedicated.DedicatedServer@cdb8178)
-[19:06:29] [Server thread/INFO] [FML]: Loading dimension 72 (world) (net.minecraft.server.dedicated.DedicatedServer@cdb8178)
-[19:06:29] [Server thread/INFO] [FML]: Loading dimension 73 (world) (net.minecraft.server.dedicated.DedicatedServer@cdb8178)
-[19:06:29] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Preparing start region for level 0
-[19:06:30] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Preparing spawn area: 0%
-[19:06:31] [Netty Epoll Server IO #1/INFO] [FML]: Disconnecting Player: Server is still starting! Please wait before reconnecting.
-[19:06:32] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Preparing spawn area: 1%
-[19:06:33] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Preparing spawn area: 18%
-[19:06:34] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Preparing spawn area: 44%
-[19:06:35] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Preparing spawn area: 88%
-[19:06:35] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Done (9,353s)! For help, type "help" or "?"
-[19:06:36] [Server thread/INFO] [FML]: Unloading dimension -1
-[19:06:36] [Server thread/INFO] [FML]: Unloading dimension 1
-[19:06:36] [Server thread/INFO] [FML]: Unloading dimension 72
-[19:06:36] [Server thread/INFO] [FML]: Unloading dimension 73
-[19:06:40] [Netty Epoll Server IO #2/INFO] [FML]: Client protocol version 2
-[19:06:40] [Netty Epoll Server IO #2/INFO] [FML]: Client attempting to join with 8 mods : minecraft@1.12.2,tlauncher_custom_cape_skin@1.4,FML@8.0.99.99,forge@14.23.5.2860,xaerominimap@22.3.0,mcp@9.42,xaerominimap_core@1.12.2-1.0,pixelmon@8.3.6
-[19:06:41] [Server thread/INFO] [FML]: [Server thread] Server side modded connection established
-[19:06:41] [Server thread/INFO] [net.minecraft.server.management.PlayerList]: Alex[/25.7.51.178:39384] logged in with entity id 25 at (1025.98789790301, 72.0, 1303.7586365520879)
-[19:06:41] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Alex joined the game
-[19:06:51] [Netty Epoll Server IO #3/INFO] [FML]: Client protocol version 2
-[19:06:51] [Netty Epoll Server IO #3/INFO] [FML]: Client attempting to join with 8 mods : minecraft@1.12.2,tlauncher_custom_cape_skin@1.4,FML@8.0.99.99,forge@14.23.5.2860,xaerominimap@22.3.0,mcp@9.42,xaerominimap_core@1.12.2-1.0,pixelmon@8.3.6
-[19:06:52] [Server thread/INFO] [FML]: [Server thread] Server side modded connection established
-[19:06:52] [Server thread/INFO] [net.minecraft.server.management.PlayerList]: gabs[/25.71.174.10:49268] logged in with entity id 53 at (1006.682319884861, 67.0, 1208.3145029039947)
-[19:06:52] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: gabs joined the game
-[19:07:06] [Server thread/WARN] [net.minecraft.world.WorldServer]: Keeping entity pixelmon:pixelmon that already exists with UUID 7d381300-ef34-4052-93ea-938b917d7520
-[19:08:00] [Server thread/WARN] [net.minecraft.world.WorldServer]: Keeping entity pixelmon:pixelmon that already exists with UUID 62d5d70c-22fc-4416-b259-b2ca630d481a
-[19:08:21] [Server thread/WARN] [net.minecraft.world.WorldServer]: Keeping entity pixelmon:pixelmon that already exists with UUID 5b629156-ad41-417c-9437-cd01d3bb2738
-[19:09:57] [Server thread/INFO] [net.minecraft.network.NetHandlerPlayServer]: Alex lost connection: Timed out
-[19:09:57] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Alex left the game
-[19:10:01] [Netty Epoll Server IO #4/INFO] [FML]: Client protocol version 2
-[19:10:01] [Netty Epoll Server IO #4/INFO] [FML]: Client attempting to join with 8 mods : minecraft@1.12.2,tlauncher_custom_cape_skin@1.4,FML@8.0.99.99,forge@14.23.5.2860,xaerominimap@22.3.0,mcp@9.42,xaerominimap_core@1.12.2-1.0,pixelmon@8.3.6
-[19:10:18] [Server thread/INFO] [FML]: [Server thread] Server side modded connection established
-[19:10:18] [Server thread/INFO] [net.minecraft.server.management.PlayerList]: Alex[/25.7.51.178:39386] logged in with entity id 665 at (1046.061587132368, 68.0, 1260.3795439191272)
-[19:10:18] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Alex joined the game
-[19:11:06] [Server thread/WARN] [net.minecraft.world.WorldServer]: Keeping entity pixelmon:pixelmon that already exists with UUID b4bdc330-8daf-491a-a1a0-8fa26260979b
-[19:11:13] [Server thread/WARN] [net.minecraft.world.WorldServer]: Keeping entity pixelmon:pixelmon that already exists with UUID 62d5d70c-22fc-4416-b259-b2ca630d481a
-[19:11:17] [Server thread/WARN] [net.minecraft.world.WorldServer]: Keeping entity pixelmon:pixelmon that already exists with UUID b4bdc330-8daf-491a-a1a0-8fa26260979b
-[19:12:01] [Server thread/WARN] [net.minecraft.world.WorldServer]: Keeping entity pixelmon:pixelmon that already exists with UUID b4bdc330-8daf-491a-a1a0-8fa26260979b
-[19:12:33] [Server thread/WARN] [net.minecraft.world.WorldServer]: Keeping entity pixelmon:pixelmon that already exists with UUID 5b629156-ad41-417c-9437-cd01d3bb2738
-[19:12:53] [Server thread/WARN] [net.minecraft.world.WorldServer]: Keeping entity pixelmon:pixelmon that already exists with UUID b4bdc330-8daf-491a-a1a0-8fa26260979b
-[19:13:18] [Server thread/WARN] [net.minecraft.world.WorldServer]: Keeping entity pixelmon:pixelmon that already exists with UUID 5b629156-ad41-417c-9437-cd01d3bb2738
-[19:13:41] [Server thread/WARN] [net.minecraft.world.WorldServer]: Keeping entity pixelmon:pixelmon that already exists with UUID 0b6f9e83-e7f2-4789-bab6-44e36c2763f0
-[19:13:49] [Server thread/WARN] [net.minecraft.world.WorldServer]: Keeping entity pixelmon:pixelmon that already exists with UUID 5b629156-ad41-417c-9437-cd01d3bb2738
-[19:15:55] [Server thread/WARN] [net.minecraft.world.WorldServer]: Keeping entity pixelmon:pixelmon that already exists with UUID 3b3212dc-db1a-428a-a200-452666a7417d
-[19:15:58] [Server thread/WARN] [net.minecraft.world.WorldServer]: Keeping entity pixelmon:pixelmon that already exists with UUID 0b6f9e83-e7f2-4789-bab6-44e36c2763f0
-[19:16:57] [Server thread/WARN] [net.minecraft.world.WorldServer]: Keeping entity pixelmon:pixelmon that already exists with UUID 62d5d70c-22fc-4416-b259-b2ca630d481a
-[19:17:07] [Server thread/WARN] [net.minecraft.world.WorldServer]: Keeping entity pixelmon:pixelmon that already exists with UUID 0b6f9e83-e7f2-4789-bab6-44e36c2763f0
-[19:17:29] [Server thread/WARN] [net.minecraft.server.MinecraftServer]: Can't keep up! Did the system time change, or is the server overloaded? Running 2011ms behind, skipping 40 tick(s)
-[19:17:59] [Server thread/WARN] [net.minecraft.world.WorldServer]: Keeping entity pixelmon:pixelmon that already exists with UUID 0b6f9e83-e7f2-4789-bab6-44e36c2763f0
-[19:19:18] [Server thread/WARN] [net.minecraft.world.WorldServer]: Keeping entity pixelmon:pixelmon that already exists with UUID dcfd79fd-2ee0-4719-b937-abb71f587fe4
-[19:19:21] [Server thread/WARN] [net.minecraft.world.WorldServer]: Keeping entity pixelmon:pixelmon that already exists with UUID dcfd79fd-2ee0-4719-b937-abb71f587fe4
-[19:19:37] [Server thread/WARN] [net.minecraft.world.WorldServer]: Keeping entity pixelmon:pixelmon that already exists with UUID 0b6f9e83-e7f2-4789-bab6-44e36c2763f0
-[19:20:36] [Server thread/WARN] [net.minecraft.world.WorldServer]: Keeping entity pixelmon:pixelmon that already exists with UUID 0b6f9e83-e7f2-4789-bab6-44e36c2763f0
-[19:21:09] [Netty Epoll Server IO #4/ERROR] [FML]: NetworkDispatcher exception
-io.netty.handler.timeout.ReadTimeoutException: null
-[19:21:09] [Server thread/INFO] [net.minecraft.network.NetHandlerPlayServer]: Alex lost connection: Disconnected
-[19:21:09] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Alex left the game
-[19:21:10] [Netty Epoll Server IO #5/INFO] [FML]: Client protocol version 2
-[19:21:10] [Netty Epoll Server IO #5/INFO] [FML]: Client attempting to join with 8 mods : minecraft@1.12.2,tlauncher_custom_cape_skin@1.4,FML@8.0.99.99,forge@14.23.5.2860,xaerominimap@22.3.0,mcp@9.42,xaerominimap_core@1.12.2-1.0,pixelmon@8.3.6
-[19:21:23] [Server thread/INFO] [net.minecraft.network.NetHandlerPlayServer]: Alex lost connection: Disconnected
-[19:21:23] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Alex left the game
-[19:21:25] [Netty Epoll Server IO #6/INFO] [FML]: Client protocol version 2
-[19:21:25] [Netty Epoll Server IO #6/INFO] [FML]: Client attempting to join with 8 mods : minecraft@1.12.2,tlauncher_custom_cape_skin@1.4,FML@8.0.99.99,forge@14.23.5.2860,xaerominimap@22.3.0,mcp@9.42,xaerominimap_core@1.12.2-1.0,pixelmon@8.3.6
-[19:21:55] [Netty Epoll Server IO #6/ERROR] [FML]: NetworkDispatcher exception
-io.netty.handler.timeout.ReadTimeoutException: null
-[19:21:55] [Server thread/INFO] [net.minecraft.network.NetHandlerPlayServer]: Alex lost connection: Timed out
-[19:21:55] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Alex left the game
-[19:22:03] [Netty Epoll Server IO #7/INFO] [FML]: Client protocol version 2
-[19:22:03] [Netty Epoll Server IO #7/INFO] [FML]: Client attempting to join with 8 mods : minecraft@1.12.2,tlauncher_custom_cape_skin@1.4,FML@8.0.99.99,forge@14.23.5.2860,xaerominimap@22.3.0,mcp@9.42,xaerominimap_core@1.12.2-1.0,pixelmon@8.3.6
-[19:22:03] [Server thread/INFO] [FML]: [Server thread] Server side modded connection established
-[19:22:03] [Server thread/INFO] [net.minecraft.server.management.PlayerList]: Alex[/25.7.51.178:39392] logged in with entity id 3338 at (1007.7058709175326, 76.49520087700593, 1277.1879616215977)
-[19:22:03] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Alex joined the game
-[19:22:41] [Server thread/WARN] [net.minecraft.world.WorldServer]: Keeping entity pixelmon:pixelmon that already exists with UUID dcfd79fd-2ee0-4719-b937-abb71f587fe4
-[19:23:15] [Server thread/WARN] [net.minecraft.world.WorldServer]: Keeping entity pixelmon:pixelmon that already exists with UUID 62d5d70c-22fc-4416-b259-b2ca630d481a
-[19:25:33] [Server thread/WARN] [net.minecraft.world.WorldServer]: Keeping entity pixelmon:pixelmon that already exists with UUID 62d5d70c-22fc-4416-b259-b2ca630d481a
-[19:26:19] [Server thread/WARN] [net.minecraft.world.WorldServer]: Keeping entity pixelmon:pixelmon that already exists with UUID 0b6f9e83-e7f2-4789-bab6-44e36c2763f0
-[19:26:47] [Server thread/WARN] [net.minecraft.world.WorldServer]: Keeping entity pixelmon:pixelmon that already exists with UUID 0b6f9e83-e7f2-4789-bab6-44e36c2763f0
-[19:26:54] [Server thread/WARN] [net.minecraft.world.WorldServer]: Keeping entity pixelmon:pixelmon that already exists with UUID 62d5d70c-22fc-4416-b259-b2ca630d481a
-[19:30:35] [Server thread/WARN] [net.minecraft.world.WorldServer]: Keeping entity pixelmon:pixelmon that already exists with UUID 62d5d70c-22fc-4416-b259-b2ca630d481a
-[19:31:11] [Server thread/WARN] [net.minecraft.world.WorldServer]: Keeping entity pixelmon:pixelmon that already exists with UUID 0b6f9e83-e7f2-4789-bab6-44e36c2763f0
-[19:32:04] [Server thread/INFO] [net.minecraft.network.NetHandlerPlayServer]: Alex lost connection: Timed out
-[19:32:04] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Alex left the game
-[19:32:09] [Netty Epoll Server IO #0/INFO] [FML]: Client protocol version 2
-[19:32:09] [Netty Epoll Server IO #0/INFO] [FML]: Client attempting to join with 8 mods : minecraft@1.12.2,tlauncher_custom_cape_skin@1.4,FML@8.0.99.99,forge@14.23.5.2860,xaerominimap@22.3.0,mcp@9.42,xaerominimap_core@1.12.2-1.0,pixelmon@8.3.6
-[19:32:32] [Server thread/INFO] [net.minecraft.network.NetHandlerPlayServer]: Alex lost connection: Disconnected
-[19:32:32] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Alex left the game
-[19:32:34] [Netty Epoll Server IO #1/INFO] [FML]: Client protocol version 2
-[19:32:34] [Netty Epoll Server IO #1/INFO] [FML]: Client attempting to join with 8 mods : minecraft@1.12.2,tlauncher_custom_cape_skin@1.4,FML@8.0.99.99,forge@14.23.5.2860,xaerominimap@22.3.0,mcp@9.42,xaerominimap_core@1.12.2-1.0,pixelmon@8.3.6
-[19:32:35] [Server thread/INFO] [FML]: [Server thread] Server side modded connection established
-[19:32:35] [Server thread/INFO] [net.minecraft.server.management.PlayerList]: Alex[/25.7.51.178:39396] logged in with entity id 5563 at (1030.0679036223462, 65.0, 1899.676570898465)
-[19:32:35] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Alex joined the game
-[19:33:10] [Server thread/WARN] [net.minecraft.world.WorldServer]: Keeping entity pixelmon:pixelmon that already exists with UUID 62d5d70c-22fc-4416-b259-b2ca630d481a
-[19:34:45] [Server thread/WARN] [net.minecraft.world.WorldServer]: Keeping entity pixelmon:pixelmon that already exists with UUID b4bdc330-8daf-491a-a1a0-8fa26260979b
-[19:34:51] [Netty Epoll Server IO #1/ERROR] [FML]: NetworkDispatcher exception
-io.netty.channel.unix.Errors$NativeIoException: syscall:read(..) failed: Conexão fechada pela outra ponta
-	at io.netty.channel.unix.FileDescriptor.readAddress(..)(Unknown Source) ~[FileDescriptor.class:?]
-[19:34:51] [Server thread/INFO] [net.minecraft.network.NetHandlerPlayServer]: Alex lost connection: Internal Exception: io.netty.channel.unix.Errors$NativeIoException: syscall:read(..) failed: Conexão fechada pela outra ponta
-[19:34:51] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Alex left the game
-[19:35:16] [Server thread/WARN] [net.minecraft.world.WorldServer]: Keeping entity pixelmon:pixelmon that already exists with UUID b4bdc330-8daf-491a-a1a0-8fa26260979b
-[19:35:20] [Netty Epoll Server IO #3/INFO] [FML]: Client protocol version 2
-[19:35:20] [Netty Epoll Server IO #3/INFO] [FML]: Client attempting to join with 8 mods : minecraft@1.12.2,tlauncher_custom_cape_skin@1.4,FML@8.0.99.99,forge@14.23.5.2860,xaerominimap@22.3.0,mcp@9.42,xaerominimap_core@1.12.2-1.0,pixelmon@8.3.6
-[19:35:21] [Server thread/INFO] [FML]: [Server thread] Server side modded connection established
-[19:35:21] [Server thread/INFO] [net.minecraft.server.management.PlayerList]: Alex[/25.7.51.178:39400] logged in with entity id 6146 at (973.9927382941962, 64.0, 1888.3402703180598)
-[19:35:21] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Alex joined the game
-[19:37:47] [Server thread/WARN] [net.minecraft.world.WorldServer]: Keeping entity pixelmon:pixelmon that already exists with UUID 126e6073-50d5-44d3-9eb9-fa1291d888dc
-[19:38:32] [Server thread/WARN] [net.minecraft.world.WorldServer]: Keeping entity pixelmon:pixelmon that already exists with UUID 126e6073-50d5-44d3-9eb9-fa1291d888dc
-[19:39:12] [Server thread/WARN] [net.minecraft.world.WorldServer]: Keeping entity pixelmon:pixelmon that already exists with UUID 62d5d70c-22fc-4416-b259-b2ca630d481a
-[19:42:04] [Server thread/WARN] [net.minecraft.world.WorldServer]: Keeping entity pixelmon:pixelmon that already exists with UUID 62d5d70c-22fc-4416-b259-b2ca630d481a
-[19:42:18] [Server thread/WARN] [net.minecraft.world.WorldServer]: Keeping entity pixelmon:pixelmon that already exists with UUID 62d5d70c-22fc-4416-b259-b2ca630d481a
-[19:42:43] [Server thread/WARN] [net.minecraft.world.WorldServer]: Keeping entity pixelmon:pixelmon that already exists with UUID 62d5d70c-22fc-4416-b259-b2ca630d481a
-[19:42:53] [Server thread/INFO] [net.minecraft.network.NetHandlerPlayServer]: Alex lost connection: Timed out
-[19:42:53] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Alex left the game
-[19:42:59] [Netty Epoll Server IO #4/INFO] [FML]: Client protocol version 2
-[19:42:59] [Netty Epoll Server IO #4/INFO] [FML]: Client attempting to join with 8 mods : minecraft@1.12.2,tlauncher_custom_cape_skin@1.4,FML@8.0.99.99,forge@14.23.5.2860,xaerominimap@22.3.0,mcp@9.42,xaerominimap_core@1.12.2-1.0,pixelmon@8.3.6
-[19:43:21] [Server thread/INFO] [net.minecraft.network.NetHandlerPlayServer]: Alex lost connection: Disconnected
-[19:43:21] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Alex left the game
-[19:43:24] [Netty Epoll Server IO #5/INFO] [FML]: Client protocol version 2
-[19:43:24] [Netty Epoll Server IO #5/INFO] [FML]: Client attempting to join with 8 mods : minecraft@1.12.2,tlauncher_custom_cape_skin@1.4,FML@8.0.99.99,forge@14.23.5.2860,xaerominimap@22.3.0,mcp@9.42,xaerominimap_core@1.12.2-1.0,pixelmon@8.3.6
-[19:43:24] [Server thread/INFO] [FML]: [Server thread] Server side modded connection established
-[19:43:24] [Server thread/INFO] [net.minecraft.server.management.PlayerList]: Alex[/25.7.51.178:39404] logged in with entity id 7849 at (1075.4813869279596, 65.0, 2221.8882042834393)
-[19:43:24] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Alex joined the game
-[19:44:08] [Server thread/WARN] [net.minecraft.world.WorldServer]: Keeping entity pixelmon:pixelmon that already exists with UUID 62d5d70c-22fc-4416-b259-b2ca630d481a
-[19:44:31] [Server thread/WARN] [net.minecraft.world.WorldServer]: Keeping entity pixelmon:pixelmon that already exists with UUID 6df301a3-4b48-430d-8b80-45760249b65c
-[19:44:32] [Server thread/WARN] [net.minecraft.world.WorldServer]: Keeping entity pixelmon:pixelmon that already exists with UUID 126e6073-50d5-44d3-9eb9-fa1291d888dc
-[19:44:53] [Server thread/WARN] [net.minecraft.world.WorldServer]: Keeping entity pixelmon:pixelmon that already exists with UUID 6df301a3-4b48-430d-8b80-45760249b65c
-[19:47:07] [Server thread/WARN] [net.minecraft.world.WorldServer]: Keeping entity pixelmon:pixelmon that already exists with UUID 0b6f9e83-e7f2-4789-bab6-44e36c2763f0
-[19:47:42] [Server thread/WARN] [net.minecraft.world.WorldServer]: Keeping entity pixelmon:pixelmon that already exists with UUID 0b6f9e83-e7f2-4789-bab6-44e36c2763f0
-[19:48:44] [Server thread/WARN] [net.minecraft.world.WorldServer]: Keeping entity pixelmon:pixelmon that already exists with UUID 0b6f9e83-e7f2-4789-bab6-44e36c2763f0
-[19:49:23] [Server thread/WARN] [net.minecraft.world.WorldServer]: Keeping entity pixelmon:pixelmon that already exists with UUID 62d5d70c-22fc-4416-b259-b2ca630d481a
-[19:49:46] [Server thread/WARN] [net.minecraft.world.WorldServer]: Keeping entity pixelmon:pixelmon that already exists with UUID 0b6f9e83-e7f2-4789-bab6-44e36c2763f0
-[19:50:48] [Server thread/WARN] [net.minecraft.world.WorldServer]: Keeping entity pixelmon:pixelmon that already exists with UUID 91f272b1-39a8-4006-be06-484e669f24cb
-[19:51:49] [Server thread/WARN] [net.minecraft.world.WorldServer]: Keeping entity pixelmon:pixelmon that already exists with UUID 62d5d70c-22fc-4416-b259-b2ca630d481a
-[19:52:45] [Server thread/WARN] [net.minecraft.world.WorldServer]: Keeping entity pixelmon:pixelmon that already exists with UUID dcfd79fd-2ee0-4719-b937-abb71f587fe4
-[19:53:42] [Server thread/INFO] [net.minecraft.network.NetHandlerPlayServer]: Alex lost connection: Timed out
-[19:53:42] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Alex left the game
-[19:53:45] [Netty Epoll Server IO #6/INFO] [FML]: Client protocol version 2
-[19:53:45] [Netty Epoll Server IO #6/INFO] [FML]: Client attempting to join with 8 mods : minecraft@1.12.2,tlauncher_custom_cape_skin@1.4,FML@8.0.99.99,forge@14.23.5.2860,xaerominimap@22.3.0,mcp@9.42,xaerominimap_core@1.12.2-1.0,pixelmon@8.3.6
-[19:53:55] [Server thread/INFO] [net.minecraft.network.NetHandlerPlayServer]: Alex lost connection: Disconnected
-[19:53:55] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Alex left the game
-[19:53:57] [Netty Epoll Server IO #7/INFO] [FML]: Client protocol version 2
-[19:53:57] [Netty Epoll Server IO #7/INFO] [FML]: Client attempting to join with 8 mods : minecraft@1.12.2,tlauncher_custom_cape_skin@1.4,FML@8.0.99.99,forge@14.23.5.2860,xaerominimap@22.3.0,mcp@9.42,xaerominimap_core@1.12.2-1.0,pixelmon@8.3.6
-[19:53:58] [Server thread/INFO] [FML]: [Server thread] Server side modded connection established
-[19:53:58] [Server thread/INFO] [net.minecraft.server.management.PlayerList]: Alex[/25.7.51.178:39408] logged in with entity id 10078 at (992.2591332504395, 68.0, 2343.0989731047407)
-[19:53:58] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Alex joined the game
-[19:54:23] [Server thread/WARN] [net.minecraft.world.WorldServer]: Keeping entity pixelmon:pixelmon that already exists with UUID 62d5d70c-22fc-4416-b259-b2ca630d481a
-[19:54:53] [Server thread/WARN] [net.minecraft.world.WorldServer]: Keeping entity pixelmon:pixelmon that already exists with UUID 62d5d70c-22fc-4416-b259-b2ca630d481a
-[19:55:11] [Server thread/WARN] [net.minecraft.world.WorldServer]: Keeping entity pixelmon:pixelmon that already exists with UUID 91f272b1-39a8-4006-be06-484e669f24cb
-[19:55:58] [Server thread/WARN] [FML]: Pixelmon loaded a new chunk [66, 159] in dimension 0 (overworld) while populating chunk [67, 159], causing cascading worldgen lag.
-[19:55:58] [Server thread/WARN] [FML]: Please report this to the mod's issue tracker. This log can be disabled in the Forge config.
-[19:56:49] [Server thread/WARN] [net.minecraft.world.WorldServer]: Keeping entity pixelmon:pixelmon that already exists with UUID 62d5d70c-22fc-4416-b259-b2ca630d481a
-[19:57:28] [Server thread/WARN] [net.minecraft.world.WorldServer]: Keeping entity pixelmon:pixelmon that already exists with UUID 0b6f9e83-e7f2-4789-bab6-44e36c2763f0
-[19:57:38] [Server thread/WARN] [net.minecraft.server.MinecraftServer]: Can't keep up! Did the system time change, or is the server overloaded? Running 2189ms behind, skipping 43 tick(s)
-[19:59:26] [Server thread/WARN] [net.minecraft.world.WorldServer]: Keeping entity pixelmon:pixelmon that already exists with UUID 62d5d70c-22fc-4416-b259-b2ca630d481a
-[20:00:00] [Server thread/WARN] [net.minecraft.world.WorldServer]: Keeping entity pixelmon:pixelmon that already exists with UUID 3b3212dc-db1a-428a-a200-452666a7417d
-[20:00:02] [Server thread/WARN] [net.minecraft.network.NetHandlerPlayServer]: Alex moved too quickly! -0.2946408272048302,-14.988152422788211,0.0
-[20:01:11] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [Pixelmon] Terrakion has spawned in a ForestHills biome!
-[20:01:11] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Spawned Terrakion at: world x:42, y:66, z:125
-[20:01:38] [Server thread/WARN] [net.minecraft.world.WorldServer]: Keeping entity pixelmon:pixelmon that already exists with UUID 62d5d70c-22fc-4416-b259-b2ca630d481a
-[20:01:43] [Server thread/WARN] [net.minecraft.world.WorldServer]: Keeping entity pixelmon:pixelmon that already exists with UUID 62d5d70c-22fc-4416-b259-b2ca630d481a
-[20:02:46] [Server thread/WARN] [net.minecraft.network.NetHandlerPlayServer]: Emboar moved wrongly!
-[20:02:46] [Server thread/WARN] [net.minecraft.network.NetHandlerPlayServer]: Emboar moved wrongly!
-[20:03:06] [Server thread/WARN] [net.minecraft.world.WorldServer]: Keeping entity pixelmon:pixelmon that already exists with UUID 3b3212dc-db1a-428a-a200-452666a7417d
-[20:04:04] [Server thread/WARN] [net.minecraft.world.WorldServer]: Keeping entity pixelmon:pixelmon that already exists with UUID dcfd79fd-2ee0-4719-b937-abb71f587fe4
-[20:04:37] [Server thread/WARN] [net.minecraft.world.WorldServer]: Keeping entity pixelmon:pixelmon that already exists with UUID 0b6f9e83-e7f2-4789-bab6-44e36c2763f0
-[20:04:54] [Netty Epoll Server IO #7/ERROR] [FML]: NetworkDispatcher exception
-io.netty.handler.timeout.ReadTimeoutException: null
-[20:04:54] [Server thread/INFO] [net.minecraft.network.NetHandlerPlayServer]: Alex lost connection: Disconnected
-[20:04:54] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Alex left the game
-[20:04:54] [Netty Epoll Server IO #0/INFO] [FML]: Client protocol version 2
-[20:04:54] [Netty Epoll Server IO #0/INFO] [FML]: Client attempting to join with 8 mods : minecraft@1.12.2,tlauncher_custom_cape_skin@1.4,FML@8.0.99.99,forge@14.23.5.2860,xaerominimap@22.3.0,mcp@9.42,xaerominimap_core@1.12.2-1.0,pixelmon@8.3.6
-[20:04:57] [Server thread/INFO] [net.minecraft.network.NetHandlerPlayServer]: Alex lost connection: Disconnected
-[20:04:57] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Alex left the game
-[20:04:59] [Netty Epoll Server IO #1/INFO] [FML]: Client protocol version 2
-[20:04:59] [Netty Epoll Server IO #1/INFO] [FML]: Client attempting to join with 8 mods : minecraft@1.12.2,tlauncher_custom_cape_skin@1.4,FML@8.0.99.99,forge@14.23.5.2860,xaerominimap@22.3.0,mcp@9.42,xaerominimap_core@1.12.2-1.0,pixelmon@8.3.6
-[20:05:21] [Server thread/INFO] [net.minecraft.network.NetHandlerPlayServer]: Alex lost connection: Disconnected
-[20:05:21] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Alex left the game
-[20:05:23] [Netty Epoll Server IO #2/INFO] [FML]: Client protocol version 2
-[20:05:23] [Netty Epoll Server IO #2/INFO] [FML]: Client attempting to join with 8 mods : minecraft@1.12.2,tlauncher_custom_cape_skin@1.4,FML@8.0.99.99,forge@14.23.5.2860,xaerominimap@22.3.0,mcp@9.42,xaerominimap_core@1.12.2-1.0,pixelmon@8.3.6
-[20:05:24] [Server thread/INFO] [FML]: [Server thread] Server side modded connection established
-[20:05:24] [Server thread/INFO] [net.minecraft.server.management.PlayerList]: Alex[/25.7.51.178:39414] logged in with entity id 12329 at (936.30649498454, 70.0, 2418.5211116044197)
-[20:05:24] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Alex joined the game
-[20:07:02] [Server thread/WARN] [net.minecraft.world.WorldServer]: Keeping entity pixelmon:pixelmon that already exists with UUID 0b6f9e83-e7f2-4789-bab6-44e36c2763f0
-[20:08:19] [Server thread/WARN] [net.minecraft.world.WorldServer]: Keeping entity pixelmon:pixelmon that already exists with UUID 0b6f9e83-e7f2-4789-bab6-44e36c2763f0
-[20:09:53] [Server thread/WARN] [net.minecraft.world.WorldServer]: Keeping entity pixelmon:pixelmon that already exists with UUID 0b6f9e83-e7f2-4789-bab6-44e36c2763f0
-[20:10:49] [Server thread/WARN] [net.minecraft.world.WorldServer]: Keeping entity pixelmon:pixelmon that already exists with UUID 0b6f9e83-e7f2-4789-bab6-44e36c2763f0
-[20:11:15] [Server thread/WARN] [net.minecraft.world.WorldServer]: Keeping entity pixelmon:pixelmon that already exists with UUID dcfd79fd-2ee0-4719-b937-abb71f587fe4
-[20:14:56] [Server thread/WARN] [net.minecraft.network.NetHandlerPlayServer]: Alex moved wrongly!
-[20:15:15] [Server thread/WARN] [net.minecraft.world.WorldServer]: Keeping entity pixelmon:pixelmon that already exists with UUID 0b6f9e83-e7f2-4789-bab6-44e36c2763f0
-[20:15:41] [Server thread/INFO] [net.minecraft.network.NetHandlerPlayServer]: Alex lost connection: Timed out
-[20:15:41] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Alex left the game
-[20:15:45] [Netty Epoll Server IO #3/INFO] [FML]: Client protocol version 2
-[20:15:45] [Netty Epoll Server IO #3/INFO] [FML]: Client attempting to join with 8 mods : minecraft@1.12.2,tlauncher_custom_cape_skin@1.4,FML@8.0.99.99,forge@14.23.5.2860,xaerominimap@22.3.0,mcp@9.42,xaerominimap_core@1.12.2-1.0,pixelmon@8.3.6
-[20:15:57] [Server thread/INFO] [net.minecraft.network.NetHandlerPlayServer]: Alex lost connection: Disconnected
-[20:15:57] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Alex left the game
-[20:15:59] [Netty Epoll Server IO #4/INFO] [FML]: Client protocol version 2
-[20:15:59] [Netty Epoll Server IO #4/INFO] [FML]: Client attempting to join with 8 mods : minecraft@1.12.2,tlauncher_custom_cape_skin@1.4,FML@8.0.99.99,forge@14.23.5.2860,xaerominimap@22.3.0,mcp@9.42,xaerominimap_core@1.12.2-1.0,pixelmon@8.3.6
-[20:15:59] [Server thread/INFO] [FML]: [Server thread] Server side modded connection established
-[20:16:00] [Server thread/INFO] [net.minecraft.server.management.PlayerList]: Alex[/25.7.51.178:39418] logged in with entity id 14074 at (1056.5307882627199, 62.07326432466507, 3013.502557748098)
-[20:16:00] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Alex joined the game
-[20:16:52] [Server thread/WARN] [net.minecraft.world.WorldServer]: Keeping entity pixelmon:pixelmon that already exists with UUID 0b6f9e83-e7f2-4789-bab6-44e36c2763f0
-[20:17:03] [Server thread/WARN] [net.minecraft.world.WorldServer]: Keeping entity pixelmon:pixelmon that already exists with UUID 0b6f9e83-e7f2-4789-bab6-44e36c2763f0
-[20:17:37] [Server thread/WARN] [net.minecraft.world.WorldServer]: Keeping entity pixelmon:pixelmon that already exists with UUID dcfd79fd-2ee0-4719-b937-abb71f587fe4
-[20:19:23] [Server thread/WARN] [net.minecraft.server.MinecraftServer]: Can't keep up! Did the system time change, or is the server overloaded? Running 2036ms behind, skipping 40 tick(s)
-[20:19:39] [Server thread/WARN] [net.minecraft.world.WorldServer]: Keeping entity pixelmon:pixelmon that already exists with UUID 0b6f9e83-e7f2-4789-bab6-44e36c2763f0
-[20:20:28] [Server thread/WARN] [net.minecraft.world.WorldServer]: Keeping entity pixelmon:pixelmon that already exists with UUID 62d5d70c-22fc-4416-b259-b2ca630d481a
-[20:20:53] [Server thread/INFO] [Pixelmon]: Registering NPCs.
-[20:20:53] [Server thread/INFO] [Pixelmon]: Missing NPC Trainer of type bugcatcher for language pt_pt.
-[20:20:53] [Server thread/INFO] [Pixelmon]: Missing NPC Trainer of type bugmaniac for language pt_pt.
-[20:20:53] [Server thread/INFO] [Pixelmon]: Missing NPC Trainer of type femalerocketgrunt for language pt_pt.
-[20:20:53] [Server thread/INFO] [Pixelmon]: Missing NPC Trainer of type malerocketgrunt for language pt_pt.
-[20:20:53] [Server thread/INFO] [Pixelmon]: Missing NPC Trainer of type femaleaquagrunt for language pt_pt.
-[20:20:53] [Server thread/INFO] [Pixelmon]: Missing NPC Trainer of type maleaquagrunt for language pt_pt.
-[20:20:53] [Server thread/INFO] [Pixelmon]: Missing NPC Trainer of type femalemagmagrunt for language pt_pt.
-[20:20:53] [Server thread/INFO] [Pixelmon]: Missing NPC Trainer of type malemagmagrunt for language pt_pt.
-[20:20:53] [Server thread/INFO] [Pixelmon]: Missing NPC Trainer of type pirate for language pt_pt.
-[20:20:53] [Server thread/INFO] [Pixelmon]: Missing NPC Trainer of type sport for language pt_pt.
-[20:20:53] [Server thread/INFO] [Pixelmon]: Missing NPC Trainer of type firebreather for language pt_pt.
-[20:20:53] [Server thread/INFO] [Pixelmon]: Missing NPC Trainer of type fisherman for language pt_pt.
-[20:20:53] [Server thread/INFO] [Pixelmon]: Missing NPC Trainer of type gardener for language pt_pt.
-[20:20:53] [Server thread/INFO] [Pixelmon]: Missing NPC Trainer of type lass for language pt_pt.
-[20:20:53] [Server thread/INFO] [Pixelmon]: Missing NPC Trainer of type ornithologist for language pt_pt.
-[20:20:53] [Server thread/INFO] [Pixelmon]: Missing NPC Trainer of type pokemaniac for language pt_pt.
-[20:20:53] [Server thread/INFO] [Pixelmon]: Missing NPC Trainer of type pkmnbreeder_f for language pt_pt.
-[20:20:53] [Server thread/INFO] [Pixelmon]: Missing NPC Trainer of type policeman for language pt_pt.
-[20:20:53] [Server thread/INFO] [Pixelmon]: Missing NPC Trainer of type preschoolergirl for language pt_pt.
-[20:20:53] [Server thread/INFO] [Pixelmon]: Missing NPC Trainer of type rancher for language pt_pt.
-[20:20:53] [Server thread/INFO] [Pixelmon]: Missing NPC Trainer of type pokemaniacgirl for language pt_pt.
-[20:20:53] [Server thread/INFO] [Pixelmon]: Missing NPC Trainer of type richboy for language pt_pt.
-[20:20:53] [Server thread/INFO] [Pixelmon]: Missing NPC Trainer of type scientistwoman for language pt_pt.
-[20:20:53] [Server thread/INFO] [Pixelmon]: Missing NPC Trainer of type scientist for language pt_pt.
-[20:20:53] [Server thread/INFO] [Pixelmon]: Missing NPC Trainer of type swimmer for language pt_pt.
-[20:20:53] [Server thread/INFO] [Pixelmon]: Missing NPC Trainer of type miner for language pt_pt.
-[20:20:54] [Server thread/INFO] [Pixelmon]: Missing NPC Trainer of type blacksmith for language pt_pt.
-[20:20:54] [Server thread/INFO] [Pixelmon]: Missing NPC Trainer of type youngster for language pt_pt.
-[20:20:54] [Server thread/INFO] [Pixelmon]: Missing NPC Trainer of type steve for language pt_pt.
-[20:20:54] [Server thread/INFO] [Pixelmon]: Missing NPC Trainer of type teamyellgruntmale for language pt_pt.
-[20:20:54] [Server thread/INFO] [Pixelmon]: Missing NPC Trainer of type teamyellgruntfemale for language pt_pt.
-[20:20:54] [Server thread/INFO] [Pixelmon]: Missing NPC Trainer of type skullgruntmale for language pt_pt.
-[20:20:54] [Server thread/INFO] [Pixelmon]: Missing NPC Trainer of type skullgruntfemale for language pt_pt.
-[20:20:54] [Server thread/INFO] [Pixelmon]: Missing NPC Trainer of type plasmagruntmale for language pt_pt.
-[20:20:54] [Server thread/INFO] [Pixelmon]: Missing NPC Trainer of type plasmagruntfemale for language pt_pt.
-[20:20:54] [Server thread/INFO] [Pixelmon]: Missing NPC Trainer of type n for language pt_pt.
-[20:20:54] [Server thread/INFO] [Pixelmon]: Missing NPC Trainer of type mountaineer for language pt_pt.
-[20:20:54] [Server thread/INFO] [Pixelmon]: Missing NPC Trainer of type magmaboss for language pt_pt.
-[20:20:54] [Server thread/INFO] [Pixelmon]: Missing NPC Trainer of type guzma for language pt_pt.
-[20:20:54] [Server thread/INFO] [Pixelmon]: Missing NPC Trainer of type giovani for language pt_pt.
-[20:20:54] [Server thread/INFO] [Pixelmon]: Missing NPC Trainer of type gentleman for language pt_pt.
-[20:20:54] [Server thread/INFO] [Pixelmon]: Missing NPC Trainer of type galacticgruntmale for language pt_pt.
-[20:20:54] [Server thread/INFO] [Pixelmon]: Missing NPC Trainer of type galacticgruntfemale for language pt_pt.
-[20:20:54] [Server thread/INFO] [Pixelmon]: Missing NPC Trainer of type galacticboss for language pt_pt.
-[20:20:54] [Server thread/INFO] [Pixelmon]: Missing NPC Trainer of type flaregruntmale for language pt_pt.
-[20:20:54] [Server thread/INFO] [Pixelmon]: Missing NPC Trainer of type flaregruntfemale for language pt_pt.
-[20:20:54] [Server thread/INFO] [Pixelmon]: Missing NPC Trainer of type aquaboss for language pt_pt.
-[20:22:13] [Server thread/WARN] [net.minecraft.network.NetHandlerPlayServer]: Alex moved wrongly!
-[20:22:22] [Server thread/WARN] [net.minecraft.world.WorldServer]: Keeping entity pixelmon:pixelmon that already exists with UUID 0b6f9e83-e7f2-4789-bab6-44e36c2763f0
-[20:25:14] [Server thread/WARN] [net.minecraft.world.WorldServer]: Keeping entity pixelmon:pixelmon that already exists with UUID 0b6f9e83-e7f2-4789-bab6-44e36c2763f0
-[20:26:17] [Server thread/INFO] [net.minecraft.network.NetHandlerPlayServer]: Alex lost connection: Timed out
-[20:26:17] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Alex left the game
-[20:26:20] [Netty Epoll Server IO #5/INFO] [FML]: Client protocol version 2
-[20:26:20] [Netty Epoll Server IO #5/INFO] [FML]: Client attempting to join with 8 mods : minecraft@1.12.2,tlauncher_custom_cape_skin@1.4,FML@8.0.99.99,forge@14.23.5.2860,xaerominimap@22.3.0,mcp@9.42,xaerominimap_core@1.12.2-1.0,pixelmon@8.3.6
-[20:26:24] [Server thread/INFO] [net.minecraft.network.NetHandlerPlayServer]: Alex lost connection: Disconnected
-[20:26:24] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Alex left the game
-[20:26:24] [Server thread/WARN] [net.minecraft.world.WorldServer]: Keeping entity pixelmon:pixelmon that already exists with UUID 0b6f9e83-e7f2-4789-bab6-44e36c2763f0
-[20:26:25] [Netty Epoll Server IO #6/INFO] [FML]: Client protocol version 2
-[20:26:25] [Netty Epoll Server IO #6/INFO] [FML]: Client attempting to join with 8 mods : minecraft@1.12.2,tlauncher_custom_cape_skin@1.4,FML@8.0.99.99,forge@14.23.5.2860,xaerominimap@22.3.0,mcp@9.42,xaerominimap_core@1.12.2-1.0,pixelmon@8.3.6
-[20:26:28] [Server thread/WARN] [net.minecraft.world.WorldServer]: Keeping entity pixelmon:pixelmon that already exists with UUID 0b6f9e83-e7f2-4789-bab6-44e36c2763f0
-[20:26:49] [Server thread/INFO] [net.minecraft.network.NetHandlerPlayServer]: Alex lost connection: Disconnected
-[20:26:49] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Alex left the game
-[20:26:49] [Server thread/WARN] [net.minecraft.world.WorldServer]: Keeping entity pixelmon:pixelmon that already exists with UUID 0b6f9e83-e7f2-4789-bab6-44e36c2763f0
-[20:26:51] [Netty Epoll Server IO #7/INFO] [FML]: Client protocol version 2
-[20:26:51] [Netty Epoll Server IO #7/INFO] [FML]: Client attempting to join with 8 mods : minecraft@1.12.2,tlauncher_custom_cape_skin@1.4,FML@8.0.99.99,forge@14.23.5.2860,xaerominimap@22.3.0,mcp@9.42,xaerominimap_core@1.12.2-1.0,pixelmon@8.3.6
-[20:26:52] [Server thread/INFO] [FML]: [Server thread] Server side modded connection established
-[20:26:52] [Server thread/INFO] [net.minecraft.server.management.PlayerList]: Alex[/25.7.51.178:39424] logged in with entity id 15802 at (2191.5398994910424, 74.0, 3088.6482130672694)
-[20:26:52] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Alex joined the game
-[20:28:03] [Server thread/WARN] [FML]: Pixelmon loaded a new chunk [-37, 24] in dimension 0 (overworld) while populating chunk [-37, 25], causing cascading worldgen lag.
-[20:28:03] [Server thread/WARN] [FML]: Please report this to the mod's issue tracker. This log can be disabled in the Forge config.
-[20:28:03] [Server thread/WARN] [FML]: Pixelmon loaded a new chunk [-37, 23] in dimension 0 (overworld) while populating chunk [-37, 25], causing cascading worldgen lag.
-[20:28:03] [Server thread/WARN] [FML]: Please report this to the mod's issue tracker. This log can be disabled in the Forge config.
-[20:28:25] [Server thread/WARN] [net.minecraft.world.WorldServer]: Keeping entity pixelmon:pixelmon that already exists with UUID 0b6f9e83-e7f2-4789-bab6-44e36c2763f0
-[20:28:29] [Server thread/WARN] [net.minecraft.world.WorldServer]: Keeping entity pixelmon:pixelmon that already exists with UUID 62d5d70c-22fc-4416-b259-b2ca630d481a
-[20:28:44] [Server thread/WARN] [net.minecraft.world.WorldServer]: Keeping entity pixelmon:pixelmon that already exists with UUID 0b6f9e83-e7f2-4789-bab6-44e36c2763f0
-[20:29:04] [Server thread/WARN] [net.minecraft.world.WorldServer]: Keeping entity pixelmon:pixelmon that already exists with UUID 0b6f9e83-e7f2-4789-bab6-44e36c2763f0
-[20:29:55] [Server thread/WARN] [net.minecraft.server.MinecraftServer]: Can't keep up! Did the system time change, or is the server overloaded? Running 3067ms behind, skipping 61 tick(s)
-[20:30:00] [Server thread/WARN] [FML]: Pixelmon loaded a new chunk [-47, 27] in dimension 0 (overworld) while populating chunk [-46, 27], causing cascading worldgen lag.
-[20:30:00] [Server thread/WARN] [FML]: Please report this to the mod's issue tracker. This log can be disabled in the Forge config.
-[20:30:12] [Server thread/WARN] [net.minecraft.world.WorldServer]: Keeping entity pixelmon:pixelmon that already exists with UUID 91f272b1-39a8-4006-be06-484e669f24cb
-[20:30:49] [Server thread/WARN] [net.minecraft.server.MinecraftServer]: Can't keep up! Did the system time change, or is the server overloaded? Running 2004ms behind, skipping 40 tick(s)
-[20:31:36] [Server thread/WARN] [net.minecraft.world.WorldServer]: Keeping entity pixelmon:pixelmon that already exists with UUID 3b3212dc-db1a-428a-a200-452666a7417d
-[20:31:41] [Server thread/WARN] [net.minecraft.world.WorldServer]: Keeping entity pixelmon:pixelmon that already exists with UUID 0b6f9e83-e7f2-4789-bab6-44e36c2763f0
-[20:33:40] [Server thread/WARN] [net.minecraft.server.MinecraftServer]: Can't keep up! Did the system time change, or is the server overloaded? Running 2367ms behind, skipping 47 tick(s)
-[20:33:44] [Server thread/WARN] [net.minecraft.world.WorldServer]: Keeping entity pixelmon:pixelmon that already exists with UUID 0b6f9e83-e7f2-4789-bab6-44e36c2763f0
-[20:34:03] [Server thread/WARN] [net.minecraft.world.WorldServer]: Keeping entity pixelmon:pixelmon that already exists with UUID 62d5d70c-22fc-4416-b259-b2ca630d481a
-[20:34:05] [Server thread/WARN] [net.minecraft.world.WorldServer]: Keeping entity pixelmon:pixelmon that already exists with UUID 0b6f9e83-e7f2-4789-bab6-44e36c2763f0
-[20:34:22] [Server thread/WARN] [net.minecraft.world.WorldServer]: Keeping entity pixelmon:pixelmon that already exists with UUID 0b6f9e83-e7f2-4789-bab6-44e36c2763f0
-[20:34:41] [Server thread/WARN] [net.minecraft.world.WorldServer]: Keeping entity pixelmon:pixelmon that already exists with UUID 0b6f9e83-e7f2-4789-bab6-44e36c2763f0
-[20:35:05] [Server thread/WARN] [net.minecraft.world.WorldServer]: Keeping entity pixelmon:pixelmon that already exists with UUID 62d5d70c-22fc-4416-b259-b2ca630d481a
-[20:35:08] [Server thread/WARN] [net.minecraft.world.WorldServer]: Keeping entity pixelmon:pixelmon that already exists with UUID 0b6f9e83-e7f2-4789-bab6-44e36c2763f0
-[20:35:29] [Server thread/WARN] [net.minecraft.world.WorldServer]: Keeping entity pixelmon:pixelmon that already exists with UUID 0b6f9e83-e7f2-4789-bab6-44e36c2763f0
-[20:36:01] [Server thread/WARN] [net.minecraft.world.WorldServer]: Keeping entity pixelmon:pixelmon that already exists with UUID 0b6f9e83-e7f2-4789-bab6-44e36c2763f0
-[20:36:14] [Server thread/WARN] [net.minecraft.world.WorldServer]: Keeping entity pixelmon:pixelmon that already exists with UUID 0b6f9e83-e7f2-4789-bab6-44e36c2763f0
-[20:36:15] [Server thread/WARN] [net.minecraft.world.WorldServer]: Keeping entity pixelmon:pixelmon that already exists with UUID c6bcd908-880c-4166-85b7-e3ac8a38f57e
-[20:37:09] [Server thread/INFO] [net.minecraft.network.NetHandlerPlayServer]: Alex lost connection: Timed out
-[20:37:09] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Alex left the game
-[20:37:19] [Netty Epoll Server IO #0/INFO] [FML]: Client protocol version 2
-[20:37:19] [Netty Epoll Server IO #0/INFO] [FML]: Client attempting to join with 8 mods : minecraft@1.12.2,tlauncher_custom_cape_skin@1.4,FML@8.0.99.99,forge@14.23.5.2860,xaerominimap@22.3.0,mcp@9.42,xaerominimap_core@1.12.2-1.0,pixelmon@8.3.6
-[20:37:27] [Server thread/INFO] [net.minecraft.network.NetHandlerPlayServer]: Alex lost connection: Disconnected
-[20:37:27] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Alex left the game
-[20:37:29] [Netty Epoll Server IO #1/INFO] [FML]: Client protocol version 2
-[20:37:29] [Netty Epoll Server IO #1/INFO] [FML]: Client attempting to join with 8 mods : minecraft@1.12.2,tlauncher_custom_cape_skin@1.4,FML@8.0.99.99,forge@14.23.5.2860,xaerominimap@22.3.0,mcp@9.42,xaerominimap_core@1.12.2-1.0,pixelmon@8.3.6
-[20:37:46] [Server thread/INFO] [FML]: [Server thread] Server side modded connection established
-[20:37:46] [Server thread/INFO] [net.minecraft.server.management.PlayerList]: Alex[/25.7.51.178:39428] logged in with entity id 18533 at (2043.6782405570275, 63.7531999805212, 3766.8388457110254)
-[20:37:46] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Alex joined the game
-[20:40:57] [Server thread/WARN] [net.minecraft.world.WorldServer]: Keeping entity pixelmon:pixelmon that already exists with UUID 373739f7-f794-44d8-a873-ee8d46c290e9
-[20:42:43] [Server thread/WARN] [net.minecraft.world.WorldServer]: Keeping entity pixelmon:pixelmon that already exists with UUID 373739f7-f794-44d8-a873-ee8d46c290e9
-[20:43:21] [Server thread/WARN] [net.minecraft.world.WorldServer]: Keeping entity pixelmon:pixelmon that already exists with UUID 126e6073-50d5-44d3-9eb9-fa1291d888dc
-[20:44:26] [Server thread/WARN] [net.minecraft.world.WorldServer]: Keeping entity pixelmon:pixelmon that already exists with UUID 6df301a3-4b48-430d-8b80-45760249b65c
-[20:44:46] [Server thread/WARN] [net.minecraft.world.WorldServer]: Keeping entity pixelmon:pixelmon that already exists with UUID 6df301a3-4b48-430d-8b80-45760249b65c
-[20:44:58] [Server thread/WARN] [net.minecraft.world.WorldServer]: Keeping entity pixelmon:pixelmon that already exists with UUID 6df301a3-4b48-430d-8b80-45760249b65c
-[20:45:14] [Server thread/WARN] [net.minecraft.world.WorldServer]: Keeping entity pixelmon:pixelmon that already exists with UUID 6df301a3-4b48-430d-8b80-45760249b65c
-[20:45:26] [Netty Epoll Server IO #1/ERROR] [FML]: NetworkDispatcher exception
-io.netty.channel.unix.Errors$NativeIoException: syscall:read(..) failed: Conexão fechada pela outra ponta
-	at io.netty.channel.unix.FileDescriptor.readAddress(..)(Unknown Source) ~[FileDescriptor.class:?]
-[20:45:26] [Server thread/INFO] [net.minecraft.network.NetHandlerPlayServer]: Alex lost connection: Internal Exception: io.netty.channel.unix.Errors$NativeIoException: syscall:read(..) failed: Conexão fechada pela outra ponta
-[20:45:26] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Alex left the game
-[20:45:29] [Netty Epoll Server IO #3/INFO] [FML]: Client protocol version 2
-[20:45:29] [Netty Epoll Server IO #3/INFO] [FML]: Client attempting to join with 8 mods : minecraft@1.12.2,tlauncher_custom_cape_skin@1.4,FML@8.0.99.99,forge@14.23.5.2860,xaerominimap@22.3.0,mcp@9.42,xaerominimap_core@1.12.2-1.0,pixelmon@8.3.6
-[20:45:30] [Server thread/INFO] [FML]: [Server thread] Server side modded connection established
-[20:45:30] [Server thread/INFO] [net.minecraft.server.management.PlayerList]: Alex[/25.7.51.178:39432] logged in with entity id 20438 at (1914.5570352144084, 64.0, 4128.7862069273415)
-[20:45:30] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Alex joined the game
-[20:45:44] [Server thread/WARN] [net.minecraft.world.WorldServer]: Keeping entity pixelmon:pixelmon that already exists with UUID 62d5d70c-22fc-4416-b259-b2ca630d481a
-[20:45:49] [Server thread/WARN] [net.minecraft.world.WorldServer]: Keeping entity pixelmon:pixelmon that already exists with UUID dcfd79fd-2ee0-4719-b937-abb71f587fe4
-[20:46:42] [Server thread/WARN] [net.minecraft.world.WorldServer]: Keeping entity pixelmon:pixelmon that already exists with UUID dcfd79fd-2ee0-4719-b937-abb71f587fe4
-[20:46:46] [Server thread/WARN] [net.minecraft.world.WorldServer]: Keeping entity pixelmon:pixelmon that already exists with UUID dcfd79fd-2ee0-4719-b937-abb71f587fe4
-[20:47:06] [Server thread/WARN] [FML]: Pixelmon loaded a new chunk [99, 254] in dimension 0 (overworld) while populating chunk [100, 255], causing cascading worldgen lag.
-[20:47:06] [Server thread/WARN] [FML]: Please report this to the mod's issue tracker. This log can be disabled in the Forge config.
-[20:47:13] [Server thread/WARN] [FML]: Pixelmon loaded a new chunk [98, 260] in dimension 0 (overworld) while populating chunk [98, 261], causing cascading worldgen lag.
-[20:47:13] [Server thread/WARN] [FML]: Please report this to the mod's issue tracker. This log can be disabled in the Forge config.
-[20:47:33] [Server thread/WARN] [net.minecraft.world.WorldServer]: Keeping entity pixelmon:pixelmon that already exists with UUID dcfd79fd-2ee0-4719-b937-abb71f587fe4
-[20:49:12] [Server thread/WARN] [net.minecraft.world.WorldServer]: Keeping entity pixelmon:pixelmon that already exists with UUID 62d5d70c-22fc-4416-b259-b2ca630d481a
-[20:49:20] [Server thread/WARN] [net.minecraft.world.WorldServer]: Keeping entity pixelmon:pixelmon that already exists with UUID 373739f7-f794-44d8-a873-ee8d46c290e9
-[20:50:30] [Server thread/WARN] [net.minecraft.world.WorldServer]: Keeping entity pixelmon:pixelmon that already exists with UUID c6bcd908-880c-4166-85b7-e3ac8a38f57e
-[20:52:38] [Server thread/WARN] [net.minecraft.world.WorldServer]: Keeping entity pixelmon:pixelmon that already exists with UUID 62d5d70c-22fc-4416-b259-b2ca630d481a
-[20:54:07] [Server thread/WARN] [net.minecraft.world.WorldServer]: Keeping entity pixelmon:pixelmon that already exists with UUID 6df301a3-4b48-430d-8b80-45760249b65c
-[20:54:11] [Server thread/WARN] [net.minecraft.world.WorldServer]: Keeping entity pixelmon:pixelmon that already exists with UUID 5b629156-ad41-417c-9437-cd01d3bb2738
-[20:55:16] [Server thread/INFO] [net.minecraft.network.NetHandlerPlayServer]: Alex lost connection: Disconnected
-[20:55:16] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Alex left the game
-[20:55:19] [Netty Epoll Server IO #5/INFO] [FML]: Client protocol version 2
-[20:55:19] [Netty Epoll Server IO #5/INFO] [FML]: Client attempting to join with 8 mods : minecraft@1.12.2,tlauncher_custom_cape_skin@1.4,FML@8.0.99.99,forge@14.23.5.2860,xaerominimap@22.3.0,mcp@9.42,xaerominimap_core@1.12.2-1.0,pixelmon@8.3.6
-[20:55:20] [Server thread/INFO] [FML]: [Server thread] Server side modded connection established
-[20:55:20] [Server thread/INFO] [net.minecraft.server.management.PlayerList]: Alex[/25.7.51.178:39436] logged in with entity id 22559 at (2075.176102795566, 75.0, 4411.3554190424675)
-[20:55:20] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Alex joined the game
-[20:55:46] [Server thread/WARN] [net.minecraft.world.WorldServer]: Keeping entity pixelmon:pixelmon that already exists with UUID c6bcd908-880c-4166-85b7-e3ac8a38f57e
-[20:56:29] [Server thread/WARN] [FML]: Pixelmon loaded a new chunk [141, 278] in dimension 0 (overworld) while populating chunk [141, 277], causing cascading worldgen lag.
-[20:56:29] [Server thread/WARN] [FML]: Please report this to the mod's issue tracker. This log can be disabled in the Forge config.
-[20:56:38] [Server thread/WARN] [net.minecraft.world.WorldServer]: Keeping entity pixelmon:pixelmon that already exists with UUID 373739f7-f794-44d8-a873-ee8d46c290e9
-[20:56:51] [Server thread/WARN] [FML]: Pixelmon loaded a new chunk [134, 259] in dimension 0 (overworld) while populating chunk [135, 259], causing cascading worldgen lag.
-[20:56:51] [Server thread/WARN] [FML]: Please report this to the mod's issue tracker. This log can be disabled in the Forge config.
-[20:57:47] [Server thread/WARN] [net.minecraft.world.WorldServer]: Keeping entity pixelmon:pixelmon that already exists with UUID 5b629156-ad41-417c-9437-cd01d3bb2738
-[20:59:08] [Server thread/WARN] [net.minecraft.world.WorldServer]: Keeping entity pixelmon:pixelmon that already exists with UUID 5b629156-ad41-417c-9437-cd01d3bb2738
-[20:59:24] [Server thread/WARN] [net.minecraft.world.WorldServer]: Keeping entity pixelmon:pixelmon that already exists with UUID 373739f7-f794-44d8-a873-ee8d46c290e9
-[20:59:49] [Server thread/WARN] [net.minecraft.world.WorldServer]: Keeping entity pixelmon:pixelmon that already exists with UUID 5b629156-ad41-417c-9437-cd01d3bb2738
-[21:02:00] [Server thread/WARN] [net.minecraft.world.WorldServer]: Keeping entity pixelmon:pixelmon that already exists with UUID 6df301a3-4b48-430d-8b80-45760249b65c
-[21:02:20] [Server thread/WARN] [net.minecraft.world.WorldServer]: Keeping entity pixelmon:pixelmon that already exists with UUID 6df301a3-4b48-430d-8b80-45760249b65c
-[21:02:34] [Server thread/WARN] [net.minecraft.world.WorldServer]: Keeping entity pixelmon:pixelmon that already exists with UUID 6df301a3-4b48-430d-8b80-45760249b65c
-[21:03:12] [Server thread/WARN] [net.minecraft.world.WorldServer]: Keeping entity pixelmon:pixelmon that already exists with UUID 5b629156-ad41-417c-9437-cd01d3bb2738
-[21:03:37] [Server thread/WARN] [net.minecraft.world.WorldServer]: Keeping entity pixelmon:pixelmon that already exists with UUID 5b629156-ad41-417c-9437-cd01d3bb2738
-[21:05:35] [Server thread/WARN] [net.minecraft.world.WorldServer]: Keeping entity pixelmon:pixelmon that already exists with UUID 5b629156-ad41-417c-9437-cd01d3bb2738
-[21:06:36] [Server thread/WARN] [net.minecraft.world.WorldServer]: Keeping entity pixelmon:pixelmon that already exists with UUID 3b3212dc-db1a-428a-a200-452666a7417d
-[21:08:27] [Server thread/INFO] [net.minecraft.network.NetHandlerPlayServer]: Alex lost connection: Disconnected
-[21:08:27] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Alex left the game
-[21:08:31] [Netty Epoll Server IO #7/INFO] [FML]: Client protocol version 2
-[21:08:31] [Netty Epoll Server IO #7/INFO] [FML]: Client attempting to join with 8 mods : minecraft@1.12.2,tlauncher_custom_cape_skin@1.4,FML@8.0.99.99,forge@14.23.5.2860,xaerominimap@22.3.0,mcp@9.42,xaerominimap_core@1.12.2-1.0,pixelmon@8.3.6
-[21:08:31] [Server thread/INFO] [FML]: [Server thread] Server side modded connection established
-[21:08:31] [Server thread/INFO] [net.minecraft.server.management.PlayerList]: Alex[/25.7.51.178:39440] logged in with entity id 25881 at (2771.8608306716596, 68.0, 4366.844264970287)
-[21:08:31] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Alex joined the game
-[21:10:06] [Server thread/WARN] [net.minecraft.world.WorldServer]: Keeping entity pixelmon:pixelmon that already exists with UUID 3b3212dc-db1a-428a-a200-452666a7417d
-[21:10:20] [Server thread/WARN] [net.minecraft.world.WorldServer]: Keeping entity pixelmon:pixelmon that already exists with UUID 3b3212dc-db1a-428a-a200-452666a7417d
-[21:11:20] [Server thread/WARN] [net.minecraft.world.WorldServer]: Keeping entity pixelmon:pixelmon that already exists with UUID dcfd79fd-2ee0-4719-b937-abb71f587fe4
-[21:11:24] [Server thread/WARN] [net.minecraft.world.WorldServer]: Keeping entity pixelmon:pixelmon that already exists with UUID dcfd79fd-2ee0-4719-b937-abb71f587fe4
-[21:11:34] [Server thread/WARN] [net.minecraft.world.WorldServer]: Keeping entity pixelmon:pixelmon that already exists with UUID dcfd79fd-2ee0-4719-b937-abb71f587fe4
-[21:12:50] [Server thread/WARN] [net.minecraft.world.WorldServer]: Keeping entity pixelmon:pixelmon that already exists with UUID 6df301a3-4b48-430d-8b80-45760249b65c
-[21:13:19] [Server thread/WARN] [net.minecraft.world.WorldServer]: Keeping entity pixelmon:pixelmon that already exists with UUID dcfd79fd-2ee0-4719-b937-abb71f587fe4
-[21:14:38] [Server thread/WARN] [net.minecraft.world.WorldServer]: Keeping entity pixelmon:pixelmon that already exists with UUID dcfd79fd-2ee0-4719-b937-abb71f587fe4
-[21:14:51] [Server thread/INFO] [net.minecraft.network.NetHandlerPlayServer]: Alex lost connection: Disconnected
-[21:14:51] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Alex left the game
-[21:19:23] [Server thread/INFO] [net.minecraft.network.NetHandlerPlayServer]: gabs lost connection: Disconnected
-[21:19:23] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: gabs left the game
-[21:21:14] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Stopping server
-[21:21:14] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Saving players
-[21:21:14] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Saving worlds
-[21:21:14] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Saving chunks for level 'world'/overworld
-[21:21:14] [Server thread/INFO] [FML]: Unloading dimension 0
-[21:21:14] [Server Shutdown Thread/INFO] [net.minecraft.server.MinecraftServer]: Stopping server
-[21:21:14] [Server Shutdown Thread/INFO] [net.minecraft.server.MinecraftServer]: Saving players
-[21:21:14] [Server Shutdown Thread/INFO] [net.minecraft.server.MinecraftServer]: Saving worlds
+[22:06:17] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLServerTweaker
+[22:06:17] [main/INFO] [LaunchWrapper]: Using primary tweak class name net.minecraftforge.fml.common.launcher.FMLServerTweaker
+[22:06:17] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLServerTweaker
+[22:06:17] [main/INFO] [FML]: Forge Mod Loader version 14.23.5.2859 for Minecraft 1.12.2 loading
+[22:06:17] [main/INFO] [FML]: Java is OpenJDK 64-Bit Server VM, version 1.8.0_292, running on Linux:amd64:4.15.0-142-generic, installed at /usr/lib/jvm/java-8-openjdk-amd64/jre
+[22:06:17] [main/INFO] [FML]: Searching /root/minecraft_server/./mods for mods
+[22:06:17] [main/WARN] [FML]: Found FMLCorePluginContainsFMLMod marker in Xaeros_Minimap_22.3.0_Forge_1.12.jar. This is not recommended, @Mods should be in a separate jar from the coremod.
+[22:06:17] [main/WARN] [FML]: The coremod XaeroMinimapPlugin (xaero.common.core.XaeroMinimapPlugin) is not signed!
+[22:06:17] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
+[22:06:17] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLDeobfTweaker
+[22:06:17] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
+[22:06:17] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
+[22:06:17] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
+[22:06:19] [main/INFO] [FML]: Found valid fingerprint for Minecraft Forge. Certificate fingerprint e3c3d50c7c986df74c645c0ac54639741c90a557
+[22:06:19] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
+[22:06:19] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
+[22:06:19] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLDeobfTweaker
+[22:06:19] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.TerminalTweaker
+[22:06:19] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.TerminalTweaker
+[22:06:20] [main/INFO] [STDOUT]: [xaero.common.core.transformer.ClassNodeTransformer:transform:26]: Transforming class pl net.minecraft.server.management.PlayerList
+[22:06:20] [main/INFO] [STDOUT]: [xaero.common.core.transformer.ClassNodeTransformer:transform:26]: Transforming class aed net.minecraft.entity.player.EntityPlayer
+[22:06:20] [main/INFO] [LaunchWrapper]: Launching wrapped minecraft {net.minecraft.server.MinecraftServer}
+[22:06:26] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Starting minecraft server version 1.12.2
+[22:06:26] [Server thread/INFO] [FML]: MinecraftForge v14.23.5.2859 Initialized
+[22:06:26] [Server thread/INFO] [FML]: Starts to replace vanilla recipe ingredients with ore ingredients.
+[22:06:27] [Server thread/INFO] [FML]: Invalid recipe found with multiple oredict ingredients in the same ingredient...
+[22:06:27] [Server thread/INFO] [FML]: Replaced 1227 ore ingredients
+[22:06:27] [Server thread/INFO] [FML]: Searching /root/minecraft_server/./mods for mods
+[22:06:30] [Server thread/INFO] [FML]: Forge Mod Loader has identified 7 mods to load
+[22:06:30] [Server thread/WARN] [FML]: Missing English translation for FML: assets/fml/lang/en_us.lang
+[22:06:30] [Server thread/WARN] [FML]: Missing English translation for xaerominimap: assets/xaerominimap/lang/en_us.lang
+[22:06:30] [Server thread/INFO] [FML]: Attempting connection with missing mods [minecraft, mcp, FML, forge, xaerominimap_core, pixelmon, xaerominimap] at CLIENT
+[22:06:30] [Server thread/INFO] [FML]: Attempting connection with missing mods [minecraft, mcp, FML, forge, xaerominimap_core, pixelmon, xaerominimap] at SERVER
+[22:06:31] [Server thread/INFO] [FML]: Processing ObjectHolder annotations
+[22:06:31] [Server thread/INFO] [FML]: Found 1168 ObjectHolder annotations
+[22:06:31] [Server thread/INFO] [FML]: Identifying ItemStackHolder annotations
+[22:06:31] [Server thread/INFO] [FML]: Found 0 ItemStackHolder annotations
+[22:06:32] [Server thread/INFO] [STDOUT]: [xaero.common.core.transformer.ClassNodeTransformer:transform:26]: Transforming class axw net.minecraft.world.chunk.Chunk
+[22:06:32] [Server thread/INFO] [FML]: Configured a dormant chunk cache size of 0
+[22:06:32] [Server thread/INFO] [Pixelmon]: Loading Pixelmon version 8.3.6
+[22:06:32] [Forge Version Check/INFO] [forge.VersionCheck]: [pixelmon] Starting version check at https://reforged.gg/forge/update.json
+[22:06:33] [Forge Version Check/INFO] [forge.VersionCheck]: [pixelmon] Found status: OUTDATED Target: 8.3.7
+[22:06:33] [Forge Version Check/INFO] [forge.VersionCheck]: [forge] Starting version check at http://files.minecraftforge.net/maven/net/minecraftforge/forge/promotions_slim.json
+[22:06:33] [Server thread/INFO] [Pixelmon]: Checking for migrations..
+[22:06:34] [Server thread/INFO] [Pixelmon]: Loading Advancements
+[22:06:34] [Forge Version Check/INFO] [forge.VersionCheck]: [forge] Found status: UP_TO_DATE Target: null
+[22:06:36] [Server thread/INFO] [FML]: Applying holder lookups
+[22:06:36] [Server thread/INFO] [FML]: Holder lookups applied
+[22:06:37] [Server thread/INFO] [FML]: Applying holder lookups
+[22:06:37] [Server thread/INFO] [FML]: Holder lookups applied
+[22:06:37] [Server thread/INFO] [FML]: Applying holder lookups
+[22:06:37] [Server thread/INFO] [FML]: Holder lookups applied
+[22:06:37] [Server thread/INFO] [FML]: Applying holder lookups
+[22:06:37] [Server thread/INFO] [FML]: Holder lookups applied
+[22:06:37] [Server thread/INFO] [FML]: Injecting itemstacks
+[22:06:37] [Server thread/INFO] [FML]: Itemstack injection complete
+[22:06:37] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Loading properties
+[22:06:37] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Default game type: SURVIVAL
+[22:06:37] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Generating keypair
+[22:06:37] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Starting Minecraft server on pixelmon-container:25565
+[22:06:38] [Server thread/INFO] [net.minecraft.network.NetworkSystem]: Using epoll channel type
+[22:06:38] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[22:06:38] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer]: The server will make no attempt to authenticate usernames. Beware.
+[22:06:38] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[22:06:38] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer]: To change this, set "online-mode" to "true" in the server.properties file.
+[22:06:38] [Server thread/INFO] [FML]: Applying holder lookups
+[22:06:38] [Server thread/INFO] [FML]: Holder lookups applied
+[22:06:39] [Server thread/INFO] [Pixelmon]: Registering shop items.
+[22:06:39] [Server thread/INFO] [Pixelmon]: Registering NPCs.
+[22:06:39] [Server thread/INFO] [Pixelmon]: Registering structures.
+[22:06:39] [Server thread/INFO] [Pixelmon]: Registering all drops.
+[22:06:40] [Server thread/INFO] [Pixelmon]: Registering battle rules.
+[22:06:40] [Server thread/INFO] [Pixelmon]: Registering Pok?mon stats.
+[22:06:41] [Server thread/INFO] [Pixelmon]: Registering quests.
+[22:06:41] [Server thread/INFO] [Pixelmon]: Loaded 39 Quests.
+[22:06:42] [Server thread/INFO] [xaero.common.MinimapLogs]: Loading Xaero's Minimap - Stage 1/2 (Server)
+[22:06:42] [Server thread/INFO] [FML]: Injecting itemstacks
+[22:06:42] [Server thread/INFO] [FML]: Itemstack injection complete
+[22:06:42] [Server thread/INFO] [Pixelmon]: Registering spawn sets.
+[22:06:44] [Server thread/INFO] [Pixelmon]: Registering raid spawning.
+[22:06:44] [Server thread/INFO] [xaero.common.MinimapLogs]: Loading Xaero's Minimap - Stage 2/2 (Server)
+[22:06:44] [Server thread/INFO] [FML]: Forge Mod Loader has successfully loaded 7 mods
+[22:06:45] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Preparing level "world"
+[22:06:45] [Server thread/INFO] [FML]: Injecting existing registry data into this server instance
+[22:06:45] [Server thread/INFO] [FML]: Applying holder lookups
+[22:06:45] [Server thread/INFO] [FML]: Holder lookups applied
+[22:06:46] [Server thread/INFO] [FML]: Loading dimension 0 (world) (net.minecraft.server.dedicated.DedicatedServer@50252868)
+[22:06:46] [Server thread/INFO] [net.minecraft.advancements.AdvancementList]: Loaded 734 advancements
+[22:06:46] [Server thread/INFO] [FML]: Loading dimension -1 (world) (net.minecraft.server.dedicated.DedicatedServer@50252868)
+[22:06:46] [Server thread/INFO] [FML]: Loading dimension 1 (world) (net.minecraft.server.dedicated.DedicatedServer@50252868)
+[22:06:46] [Server thread/INFO] [FML]: Loading dimension 72 (world) (net.minecraft.server.dedicated.DedicatedServer@50252868)
+[22:06:46] [Server thread/INFO] [FML]: Loading dimension 73 (world) (net.minecraft.server.dedicated.DedicatedServer@50252868)
+[22:06:46] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Preparing start region for level 0
+[22:06:47] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Preparing spawn area: 8%
+[22:06:48] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Preparing spawn area: 91%
+[22:06:48] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Done (3.808s)! For help, type "help" or "?"
+[22:06:49] [Server thread/INFO] [FML]: Unloading dimension -1
+[22:06:49] [Server thread/INFO] [FML]: Unloading dimension 1
+[22:06:49] [Server thread/INFO] [FML]: Unloading dimension 72
+[22:06:49] [Server thread/INFO] [FML]: Unloading dimension 73
