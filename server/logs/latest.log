@@ -36,3 +36,5 @@ io.netty.handler.timeout.ReadTimeoutException: null
 [00:18:10] [Server thread/WARN] [net.minecraft.world.WorldServer]: Keeping entity pixelmon:pixelmon that already exists with UUID 3407a25d-4b8b-494a-890b-7baa780fc453
 [00:18:38] [Server thread/INFO] [net.minecraft.network.NetHandlerPlayServer]: WilddHunter lost connection: Timed out
 [00:18:38] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: WilddHunter left the game
+[00:26:13] [Netty Epoll Server IO #6/INFO] [FML]: Client protocol version 2
+[00:26:13] [Netty Epoll Server IO #6/INFO] [FML]: Client attempting to join with 7 mods : minecraft@1.12.2,FML@8.0.99.99,forge@14.23.5.2860,xaerominimap@22.3.1,mcp@9.42,xaerominimap_core@1.12.2-1.0,pixelmon@8.3.6
