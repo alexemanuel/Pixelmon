@@ -227,6 +227,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/tools/flint_and_steel": {
+    "criteria": {
+      "has_flint": "2022-03-22 00:38:03 +0000"
+    },
+    "done": true
+  },
   "pixelmon:recipes/decorative/brown_vending_machine": {
     "criteria": {
       "has_fresh_water": "2022-03-21 22:20:14 +0000"

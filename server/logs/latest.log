@@ -38,3 +38,168 @@ io.netty.handler.timeout.ReadTimeoutException: null
 [00:18:38] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: WilddHunter left the game
 [00:26:13] [Netty Epoll Server IO #6/INFO] [FML]: Client protocol version 2
 [00:26:13] [Netty Epoll Server IO #6/INFO] [FML]: Client attempting to join with 7 mods : minecraft@1.12.2,FML@8.0.99.99,forge@14.23.5.2860,xaerominimap@22.3.1,mcp@9.42,xaerominimap_core@1.12.2-1.0,pixelmon@8.3.6
+[00:26:43] [Netty Epoll Server IO #6/ERROR] [FML]: NetworkDispatcher exception
+io.netty.handler.timeout.ReadTimeoutException: null
+[00:26:43] [Server thread/INFO] [net.minecraft.network.NetHandlerPlayServer]: WilddHunter lost connection: Timed out
+[00:26:43] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: WilddHunter left the game
+[00:27:06] [Netty Epoll Server IO #7/INFO] [FML]: Client protocol version 2
+[00:27:06] [Netty Epoll Server IO #7/INFO] [FML]: Client attempting to join with 7 mods : minecraft@1.12.2,FML@8.0.99.99,forge@14.23.5.2860,xaerominimap@22.3.1,mcp@9.42,xaerominimap_core@1.12.2-1.0,pixelmon@8.3.6
+[00:27:06] [Server thread/INFO] [FML]: [Server thread] Server side modded connection established
+[00:27:06] [Server thread/INFO] [net.minecraft.server.management.PlayerList]: WilddHunter[/25.72.248.14:58221] logged in with entity id 35211 at (16.72179668344127, 64.7531999805212, 135.00359021229542)
+[00:27:06] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: WilddHunter joined the game
+[00:27:23] [Server thread/WARN] [net.minecraft.world.WorldServer]: Keeping entity pixelmon:pixelmon that already exists with UUID 2ac4635a-db74-4dbd-9033-323f0557bbeb
+[00:28:10] [Server thread/WARN] [net.minecraft.world.WorldServer]: Keeping entity pixelmon:pixelmon that already exists with UUID 2ac4635a-db74-4dbd-9033-323f0557bbeb
+[00:28:21] [Server thread/WARN] [net.minecraft.world.WorldServer]: Keeping entity pixelmon:pixelmon that already exists with UUID 2ac4635a-db74-4dbd-9033-323f0557bbeb
+[00:28:43] [Server thread/WARN] [net.minecraft.world.WorldServer]: Keeping entity pixelmon:pixelmon that already exists with UUID 2ac4635a-db74-4dbd-9033-323f0557bbeb
+[00:29:17] [Server thread/WARN] [net.minecraft.world.WorldServer]: Keeping entity pixelmon:pixelmon that already exists with UUID 2ac4635a-db74-4dbd-9033-323f0557bbeb
+[00:29:36] [Server thread/WARN] [net.minecraft.world.WorldServer]: Keeping entity pixelmon:pixelmon that already exists with UUID 2ac4635a-db74-4dbd-9033-323f0557bbeb
+[00:30:21] [Server thread/WARN] [net.minecraft.world.WorldServer]: Keeping entity pixelmon:pixelmon that already exists with UUID 2ac4635a-db74-4dbd-9033-323f0557bbeb
+[00:32:18] [Server thread/WARN] [net.minecraft.world.WorldServer]: Keeping entity pixelmon:pixelmon that already exists with UUID 9c39b803-fef2-40ae-9dd3-93d909884fef
+[00:32:28] [Server thread/WARN] [net.minecraft.world.WorldServer]: Keeping entity pixelmon:pixelmon that already exists with UUID 2ac4635a-db74-4dbd-9033-323f0557bbeb
+[00:32:58] [Server thread/WARN] [net.minecraft.world.WorldServer]: Keeping entity pixelmon:pixelmon that already exists with UUID 2ac4635a-db74-4dbd-9033-323f0557bbeb
+[00:33:53] [Server thread/WARN] [net.minecraft.world.WorldServer]: Keeping entity pixelmon:pixelmon that already exists with UUID 2ac4635a-db74-4dbd-9033-323f0557bbeb
+[00:34:06] [Server thread/WARN] [net.minecraft.world.WorldServer]: Keeping entity pixelmon:pixelmon that already exists with UUID 2ac4635a-db74-4dbd-9033-323f0557bbeb
+[00:34:40] [Server thread/WARN] [net.minecraft.world.WorldServer]: Keeping entity pixelmon:pixelmon that already exists with UUID 2ac4635a-db74-4dbd-9033-323f0557bbeb
+[00:35:29] [Server thread/WARN] [net.minecraft.world.WorldServer]: Keeping entity pixelmon:pixelmon that already exists with UUID 2ac4635a-db74-4dbd-9033-323f0557bbeb
+[00:37:42] [Netty Epoll Server IO #7/ERROR] [FML]: NetworkDispatcher exception
+io.netty.handler.timeout.ReadTimeoutException: null
+[00:37:42] [Server thread/INFO] [net.minecraft.network.NetHandlerPlayServer]: WilddHunter lost connection: Disconnected
+[00:37:42] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: WilddHunter left the game
+[00:37:49] [Netty Epoll Server IO #1/INFO] [FML]: Client protocol version 2
+[00:37:49] [Netty Epoll Server IO #1/INFO] [FML]: Client attempting to join with 7 mods : minecraft@1.12.2,FML@8.0.99.99,forge@14.23.5.2860,xaerominimap@22.3.1,mcp@9.42,xaerominimap_core@1.12.2-1.0,pixelmon@8.3.6
+[00:38:03] [Server thread/INFO] [FML]: [Server thread] Server side modded connection established
+[00:38:03] [Server thread/INFO] [net.minecraft.server.management.PlayerList]: WilddHunter[/25.72.248.14:58264] logged in with entity id 36760 at (21.381255627308665, 63.0, 77.30000001192091)
+[00:38:03] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: WilddHunter joined the game
+[00:39:11] [Server thread/WARN] [net.minecraft.world.WorldServer]: Keeping entity pixelmon:pixelmon that already exists with UUID 2ac4635a-db74-4dbd-9033-323f0557bbeb
+[00:49:03] [Server thread/WARN] [net.minecraft.world.WorldServer]: Keeping entity pixelmon:pixelmon that already exists with UUID 2ac4635a-db74-4dbd-9033-323f0557bbeb
+[00:49:34] [Server thread/INFO] [net.minecraft.network.NetHandlerPlayServer]: WilddHunter lost connection: Timed out
+[00:49:34] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: WilddHunter left the game
+[00:49:55] [Netty Epoll Server IO #2/INFO] [FML]: Client protocol version 2
+[00:49:55] [Netty Epoll Server IO #2/INFO] [FML]: Client attempting to join with 7 mods : minecraft@1.12.2,FML@8.0.99.99,forge@14.23.5.2860,xaerominimap@22.3.1,mcp@9.42,xaerominimap_core@1.12.2-1.0,pixelmon@8.3.6
+[00:50:25] [Netty Epoll Server IO #2/ERROR] [FML]: NetworkDispatcher exception
+io.netty.handler.timeout.ReadTimeoutException: null
+[00:50:25] [Server thread/INFO] [net.minecraft.network.NetHandlerPlayServer]: WilddHunter lost connection: Timed out
+[00:50:25] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: WilddHunter left the game
+[00:51:08] [Netty Epoll Server IO #3/INFO] [FML]: Client protocol version 2
+[00:51:08] [Netty Epoll Server IO #3/INFO] [FML]: Client attempting to join with 7 mods : minecraft@1.12.2,FML@8.0.99.99,forge@14.23.5.2860,xaerominimap@22.3.1,mcp@9.42,xaerominimap_core@1.12.2-1.0,pixelmon@8.3.6
+[00:51:08] [Server thread/INFO] [FML]: [Server thread] Server side modded connection established
+[00:51:08] [Server thread/INFO] [net.minecraft.server.management.PlayerList]: WilddHunter[/25.72.248.14:58395] logged in with entity id 38120 at (65.94375, 73.25, 105.059896499943)
+[00:51:08] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: WilddHunter joined the game
+[00:53:29] [Server thread/WARN] [net.minecraft.world.WorldServer]: Keeping entity pixelmon:pixelmon that already exists with UUID 9c39b803-fef2-40ae-9dd3-93d909884fef
+[00:55:49] [Server thread/WARN] [net.minecraft.world.WorldServer]: Keeping entity pixelmon:pixelmon that already exists with UUID 2ac4635a-db74-4dbd-9033-323f0557bbeb
+[00:56:45] [Server thread/WARN] [FML]: Pixelmon loaded a new chunk [130, -14] in dimension 0 (overworld) while populating chunk [130, -13], causing cascading worldgen lag.
+[00:56:45] [Server thread/WARN] [FML]: Please report this to the mod's issue tracker. This log can be disabled in the Forge config.
+[00:57:40] [Server thread/WARN] [FML]: Pixelmon loaded a new chunk [139, -21] in dimension 0 (overworld) while populating chunk [140, -20], causing cascading worldgen lag.
+[00:57:40] [Server thread/WARN] [FML]: Please report this to the mod's issue tracker. This log can be disabled in the Forge config.
+[01:01:23] [Netty Epoll Server IO #3/ERROR] [FML]: NetworkDispatcher exception
+io.netty.handler.timeout.ReadTimeoutException: null
+[01:01:23] [Server thread/INFO] [net.minecraft.network.NetHandlerPlayServer]: WilddHunter lost connection: Disconnected
+[01:01:23] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: WilddHunter left the game
+[01:01:23] [Netty Epoll Server IO #4/INFO] [FML]: Client protocol version 2
+[01:01:23] [Netty Epoll Server IO #4/INFO] [FML]: Client attempting to join with 7 mods : minecraft@1.12.2,FML@8.0.99.99,forge@14.23.5.2860,xaerominimap@22.3.1,mcp@9.42,xaerominimap_core@1.12.2-1.0,pixelmon@8.3.6
+[01:01:51] [Server thread/INFO] [FML]: [Server thread] Server side modded connection established
+[01:01:51] [Server thread/INFO] [net.minecraft.server.management.PlayerList]: WilddHunter[/25.72.248.14:58450] logged in with entity id 39681 at (2551.8779451606724, 87.0, -258.26631126602547)
+[01:01:51] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: WilddHunter joined the game
+[01:04:50] [Server thread/WARN] [net.minecraft.world.WorldServer]: Keeping entity pixelmon:pixelmon that already exists with UUID 2ac4635a-db74-4dbd-9033-323f0557bbeb
+[01:07:37] [Server thread/WARN] [net.minecraft.world.WorldServer]: Keeping entity pixelmon:pixelmon that already exists with UUID 3407a25d-4b8b-494a-890b-7baa780fc453
+[01:10:32] [Server thread/WARN] [net.minecraft.world.WorldServer]: Keeping entity pixelmon:pixelmon that already exists with UUID 2ac4635a-db74-4dbd-9033-323f0557bbeb
+[01:11:07] [Server thread/WARN] [net.minecraft.world.WorldServer]: Keeping entity pixelmon:pixelmon that already exists with UUID 3407a25d-4b8b-494a-890b-7baa780fc453
+[01:11:52] [Server thread/INFO] [net.minecraft.network.NetHandlerPlayServer]: WilddHunter lost connection: Timed out
+[01:11:52] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: WilddHunter left the game
+[01:12:16] [Netty Epoll Server IO #5/INFO] [FML]: Client protocol version 2
+[01:12:16] [Netty Epoll Server IO #5/INFO] [FML]: Client attempting to join with 7 mods : minecraft@1.12.2,FML@8.0.99.99,forge@14.23.5.2860,xaerominimap@22.3.1,mcp@9.42,xaerominimap_core@1.12.2-1.0,pixelmon@8.3.6
+[01:12:46] [Netty Epoll Server IO #5/ERROR] [FML]: NetworkDispatcher exception
+io.netty.handler.timeout.ReadTimeoutException: null
+[01:12:46] [Server thread/INFO] [net.minecraft.network.NetHandlerPlayServer]: WilddHunter lost connection: Timed out
+[01:12:46] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: WilddHunter left the game
+[01:13:06] [Netty Epoll Server IO #6/INFO] [FML]: Client protocol version 2
+[01:13:06] [Netty Epoll Server IO #6/INFO] [FML]: Client attempting to join with 7 mods : minecraft@1.12.2,FML@8.0.99.99,forge@14.23.5.2860,xaerominimap@22.3.1,mcp@9.42,xaerominimap_core@1.12.2-1.0,pixelmon@8.3.6
+[01:13:36] [Netty Epoll Server IO #6/ERROR] [FML]: NetworkDispatcher exception
+io.netty.handler.timeout.ReadTimeoutException: null
+[01:13:36] [Server thread/INFO] [net.minecraft.network.NetHandlerPlayServer]: WilddHunter lost connection: Timed out
+[01:13:36] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: WilddHunter left the game
+[01:13:55] [Netty Epoll Server IO #7/INFO] [FML]: Client protocol version 2
+[01:13:55] [Netty Epoll Server IO #7/INFO] [FML]: Client attempting to join with 7 mods : minecraft@1.12.2,FML@8.0.99.99,forge@14.23.5.2860,xaerominimap@22.3.1,mcp@9.42,xaerominimap_core@1.12.2-1.0,pixelmon@8.3.6
+[01:13:56] [Server thread/INFO] [FML]: [Server thread] Server side modded connection established
+[01:13:56] [Server thread/INFO] [net.minecraft.server.management.PlayerList]: WilddHunter[/25.72.248.14:58515] logged in with entity id 44791 at (3018.0221089237075, 69.25220334025373, -273.003624834849)
+[01:13:56] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: WilddHunter joined the game
+[01:14:21] [Server thread/WARN] [FML]: Pixelmon loaded a new chunk [189, -32] in dimension 0 (overworld) while populating chunk [190, -32], causing cascading worldgen lag.
+[01:14:21] [Server thread/WARN] [FML]: Please report this to the mod's issue tracker. This log can be disabled in the Forge config.
+[01:15:30] [Server thread/WARN] [FML]: Pixelmon loaded a new chunk [222, -32] in dimension 0 (overworld) while populating chunk [223, -31], causing cascading worldgen lag.
+[01:15:30] [Server thread/WARN] [FML]: Please report this to the mod's issue tracker. This log can be disabled in the Forge config.
+[01:15:47] [Server thread/WARN] [FML]: Pixelmon loaded a new chunk [235, -16] in dimension 0 (overworld) while populating chunk [234, -16], causing cascading worldgen lag.
+[01:15:47] [Server thread/WARN] [FML]: Please report this to the mod's issue tracker. This log can be disabled in the Forge config.
+[01:15:47] [Server thread/WARN] [FML]: Pixelmon loaded a new chunk [236, -16] in dimension 0 (overworld) while populating chunk [235, -16], causing cascading worldgen lag.
+[01:15:47] [Server thread/WARN] [FML]: Please report this to the mod's issue tracker. This log can be disabled in the Forge config.
+[01:15:47] [Server thread/WARN] [FML]: Pixelmon loaded a new chunk [235, -15] in dimension 0 (overworld) while populating chunk [235, -16], causing cascading worldgen lag.
+[01:15:47] [Server thread/WARN] [FML]: Please report this to the mod's issue tracker. This log can be disabled in the Forge config.
+[01:15:47] [Server thread/WARN] [FML]: Pixelmon loaded a new chunk [236, -15] in dimension 0 (overworld) while populating chunk [235, -16], causing cascading worldgen lag.
+[01:15:47] [Server thread/WARN] [FML]: Please report this to the mod's issue tracker. This log can be disabled in the Forge config.
+[01:15:47] [Server thread/WARN] [FML]: Pixelmon loaded a new chunk [234, -15] in dimension 0 (overworld) while populating chunk [234, -16], causing cascading worldgen lag.
+[01:15:47] [Server thread/WARN] [FML]: Please report this to the mod's issue tracker. This log can be disabled in the Forge config.
+[01:15:47] [Server thread/WARN] [FML]: Pixelmon loaded a new chunk [236, -17] in dimension 0 (overworld) while populating chunk [235, -18], causing cascading worldgen lag.
+[01:15:47] [Server thread/WARN] [FML]: Please report this to the mod's issue tracker. This log can be disabled in the Forge config.
+[01:15:48] [Server thread/WARN] [FML]: Pixelmon loaded a new chunk [236, -18] in dimension 0 (overworld) while populating chunk [235, -18], causing cascading worldgen lag.
+[01:15:48] [Server thread/WARN] [FML]: Please report this to the mod's issue tracker. This log can be disabled in the Forge config.
+[01:15:50] [Server thread/WARN] [FML]: Pixelmon loaded a new chunk [238, -18] in dimension 0 (overworld) while populating chunk [237, -18], causing cascading worldgen lag.
+[01:15:50] [Server thread/WARN] [FML]: Please report this to the mod's issue tracker. This log can be disabled in the Forge config.
+[01:15:50] [Server thread/WARN] [FML]: Pixelmon loaded a new chunk [239, -18] in dimension 0 (overworld) while populating chunk [237, -18], causing cascading worldgen lag.
+[01:15:50] [Server thread/WARN] [FML]: Please report this to the mod's issue tracker. This log can be disabled in the Forge config.
+[01:15:50] [Server thread/WARN] [FML]: Pixelmon loaded a new chunk [237, -17] in dimension 0 (overworld) while populating chunk [237, -18], causing cascading worldgen lag.
+[01:15:50] [Server thread/WARN] [FML]: Please report this to the mod's issue tracker. This log can be disabled in the Forge config.
+[01:15:50] [Server thread/WARN] [FML]: Pixelmon loaded a new chunk [238, -17] in dimension 0 (overworld) while populating chunk [237, -18], causing cascading worldgen lag.
+[01:15:50] [Server thread/WARN] [FML]: Please report this to the mod's issue tracker. This log can be disabled in the Forge config.
+[01:15:50] [Server thread/WARN] [FML]: Pixelmon loaded a new chunk [239, -17] in dimension 0 (overworld) while populating chunk [237, -18], causing cascading worldgen lag.
+[01:15:50] [Server thread/WARN] [FML]: Please report this to the mod's issue tracker. This log can be disabled in the Forge config.
+[01:15:50] [Server thread/WARN] [FML]: Pixelmon loaded a new chunk [238, -16] in dimension 0 (overworld) while populating chunk [237, -16], causing cascading worldgen lag.
+[01:15:50] [Server thread/WARN] [FML]: Please report this to the mod's issue tracker. This log can be disabled in the Forge config.
+[01:15:50] [Server thread/WARN] [FML]: Pixelmon loaded a new chunk [237, -15] in dimension 0 (overworld) while populating chunk [237, -16], causing cascading worldgen lag.
+[01:15:50] [Server thread/WARN] [FML]: Please report this to the mod's issue tracker. This log can be disabled in the Forge config.
+[01:15:50] [Server thread/WARN] [FML]: Pixelmon loaded a new chunk [238, -15] in dimension 0 (overworld) while populating chunk [237, -16], causing cascading worldgen lag.
+[01:15:50] [Server thread/WARN] [FML]: Please report this to the mod's issue tracker. This log can be disabled in the Forge config.
+[01:15:51] [Server thread/INFO] [Pixelmon]: Gym spawned at 3798 63 -245
+[01:15:51] [Server thread/WARN] [net.minecraft.network.NetHandlerPlayServer]: Swanna (vehicle of WilddHunter) moved too quickly! 9.300595303555838,-4.3426073238788945,-0.00872502732090652
+[01:15:51] [Server thread/WARN] [net.minecraft.network.NetHandlerPlayServer]: Swanna (vehicle of WilddHunter) moved too quickly! 9.894070538336564,-4.6832160992668435,-0.009306112537160516
+[01:15:51] [Server thread/WARN] [net.minecraft.network.NetHandlerPlayServer]: Swanna (vehicle of WilddHunter) moved too quickly! 10.48581387167269,-5.02954477388991,-0.009887197753414512
+[01:15:51] [Server thread/WARN] [net.minecraft.network.NetHandlerPlayServer]: Swanna (vehicle of WilddHunter) moved too quickly! 11.07601269525594,-5.381366839845327,-0.010468282969668508
+[01:15:51] [Server thread/WARN] [net.minecraft.network.NetHandlerPlayServer]: Swanna (vehicle of WilddHunter) moved too quickly! 11.664834125002017,-5.738464758939017,-0.011049368185922503
+[01:16:18] [Server thread/WARN] [net.minecraft.network.NetHandlerPlayServer]: Swanna (vehicle of WilddHunter) moved too quickly! -9.929610837383734,3.809143413550956,1.5517768342111822
+[01:16:18] [Server thread/WARN] [net.minecraft.network.NetHandlerPlayServer]: Swanna (vehicle of WilddHunter) moved too quickly! -9.361226860775332,3.4614884135509527,1.4205595799545563
+[01:18:12] [Server thread/WARN] [net.minecraft.world.WorldServer]: Keeping entity pixelmon:pixelmon that already exists with UUID 9c39b803-fef2-40ae-9dd3-93d909884fef
+[01:23:13] [Server thread/WARN] [FML]: Pixelmon loaded a new chunk [193, -7] in dimension 0 (overworld) while populating chunk [194, -7], causing cascading worldgen lag.
+[01:23:13] [Server thread/WARN] [FML]: Please report this to the mod's issue tracker. This log can be disabled in the Forge config.
+[01:23:46] [Server thread/WARN] [net.minecraft.network.NetHandlerPlayServer]: Swanna moved wrongly!
+[01:23:47] [Server thread/WARN] [net.minecraft.network.NetHandlerPlayServer]: Swanna moved wrongly!
+[01:24:34] [Netty Epoll Server IO #7/ERROR] [FML]: NetworkDispatcher exception
+io.netty.handler.timeout.ReadTimeoutException: null
+[01:24:34] [Server thread/INFO] [net.minecraft.network.NetHandlerPlayServer]: WilddHunter lost connection: Disconnected
+[01:24:34] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: WilddHunter left the game
+[01:24:34] [Netty Epoll Server IO #0/INFO] [FML]: Client protocol version 2
+[01:24:34] [Netty Epoll Server IO #0/INFO] [FML]: Client attempting to join with 7 mods : minecraft@1.12.2,FML@8.0.99.99,forge@14.23.5.2860,xaerominimap@22.3.1,mcp@9.42,xaerominimap_core@1.12.2-1.0,pixelmon@8.3.6
+[01:25:02] [Server thread/INFO] [FML]: [Server thread] Server side modded connection established
+[01:25:02] [Server thread/INFO] [net.minecraft.server.management.PlayerList]: WilddHunter[/25.72.248.14:58583] logged in with entity id 46861 at (2891.5, 67.0, -166.5)
+[01:25:02] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: WilddHunter joined the game
+[01:25:09] [Server thread/WARN] [net.minecraft.world.WorldServer]: Keeping entity pixelmon:pixelmon that already exists with UUID 3407a25d-4b8b-494a-890b-7baa780fc453
+[01:26:34] [Server thread/WARN] [net.minecraft.network.NetHandlerPlayServer]: WilddHunter moved too quickly! 0.0,-15.899144379383742,0.0
+[01:28:12] [Server thread/WARN] [net.minecraft.world.WorldServer]: Keeping entity pixelmon:pixelmon that already exists with UUID b4bb6a1b-6ade-4bf7-b3d9-a16eec0711e6
+[01:28:38] [Server thread/WARN] [net.minecraft.world.WorldServer]: Keeping entity pixelmon:pixelmon that already exists with UUID b4bb6a1b-6ade-4bf7-b3d9-a16eec0711e6
+[01:29:59] [Server thread/WARN] [net.minecraft.world.WorldServer]: Keeping entity pixelmon:pixelmon that already exists with UUID 2ac4635a-db74-4dbd-9033-323f0557bbeb
+[01:35:20] [Server thread/WARN] [net.minecraft.network.NetHandlerPlayServer]: Salamence moved wrongly!
+[01:36:10] [Netty Epoll Server IO #0/ERROR] [FML]: NetworkDispatcher exception
+io.netty.handler.timeout.ReadTimeoutException: null
+[01:36:10] [Server thread/INFO] [net.minecraft.network.NetHandlerPlayServer]: WilddHunter lost connection: Disconnected
+[01:36:10] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: WilddHunter left the game
+[01:36:10] [Netty Epoll Server IO #1/INFO] [FML]: Client protocol version 2
+[01:36:10] [Netty Epoll Server IO #1/INFO] [FML]: Client attempting to join with 7 mods : minecraft@1.12.2,FML@8.0.99.99,forge@14.23.5.2860,xaerominimap@22.3.1,mcp@9.42,xaerominimap_core@1.12.2-1.0,pixelmon@8.3.6
+[01:36:14] [Server thread/INFO] [FML]: [Server thread] Server side modded connection established
+[01:36:14] [Server thread/INFO] [net.minecraft.server.management.PlayerList]: WilddHunter[/25.72.248.14:58662] logged in with entity id 48367 at (40.13733961624482, 65.10599994659424, 168.88940011168776)
+[01:36:14] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: WilddHunter joined the game
+[01:36:14] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: WilddHunter has made the advancement [Diamonds!]
+[01:38:31] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [Pixelmon] Zacian has spawned in a Forest biome!
+[01:38:31] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Spawned Zacian at: world x:128, y:64, z:225
+[01:45:22] [Server thread/WARN] [net.minecraft.world.WorldServer]: Keeping entity pixelmon:pixelmon that already exists with UUID 3407a25d-4b8b-494a-890b-7baa780fc453
+[01:46:23] [Server thread/WARN] [net.minecraft.network.NetHandlerPlayServer]: Salamence moved wrongly!
+[01:47:12] [Netty Epoll Server IO #1/ERROR] [FML]: NetworkDispatcher exception
+io.netty.handler.timeout.ReadTimeoutException: null
+[01:47:12] [Server thread/INFO] [net.minecraft.network.NetHandlerPlayServer]: WilddHunter lost connection: Disconnected
+[01:47:12] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: WilddHunter left the game
