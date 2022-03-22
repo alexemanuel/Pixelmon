@@ -1,100 +1,38 @@
-[22:06:17] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLServerTweaker
-[22:06:17] [main/INFO] [LaunchWrapper]: Using primary tweak class name net.minecraftforge.fml.common.launcher.FMLServerTweaker
-[22:06:17] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLServerTweaker
-[22:06:17] [main/INFO] [FML]: Forge Mod Loader version 14.23.5.2859 for Minecraft 1.12.2 loading
-[22:06:17] [main/INFO] [FML]: Java is OpenJDK 64-Bit Server VM, version 1.8.0_292, running on Linux:amd64:4.15.0-142-generic, installed at /usr/lib/jvm/java-8-openjdk-amd64/jre
-[22:06:17] [main/INFO] [FML]: Searching /root/minecraft_server/./mods for mods
-[22:06:17] [main/WARN] [FML]: Found FMLCorePluginContainsFMLMod marker in Xaeros_Minimap_22.3.0_Forge_1.12.jar. This is not recommended, @Mods should be in a separate jar from the coremod.
-[22:06:17] [main/WARN] [FML]: The coremod XaeroMinimapPlugin (xaero.common.core.XaeroMinimapPlugin) is not signed!
-[22:06:17] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
-[22:06:17] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLDeobfTweaker
-[22:06:17] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
-[22:06:17] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
-[22:06:17] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
-[22:06:19] [main/INFO] [FML]: Found valid fingerprint for Minecraft Forge. Certificate fingerprint e3c3d50c7c986df74c645c0ac54639741c90a557
-[22:06:19] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
-[22:06:19] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
-[22:06:19] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLDeobfTweaker
-[22:06:19] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.TerminalTweaker
-[22:06:19] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.TerminalTweaker
-[22:06:20] [main/INFO] [STDOUT]: [xaero.common.core.transformer.ClassNodeTransformer:transform:26]: Transforming class pl net.minecraft.server.management.PlayerList
-[22:06:20] [main/INFO] [STDOUT]: [xaero.common.core.transformer.ClassNodeTransformer:transform:26]: Transforming class aed net.minecraft.entity.player.EntityPlayer
-[22:06:20] [main/INFO] [LaunchWrapper]: Launching wrapped minecraft {net.minecraft.server.MinecraftServer}
-[22:06:26] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Starting minecraft server version 1.12.2
-[22:06:26] [Server thread/INFO] [FML]: MinecraftForge v14.23.5.2859 Initialized
-[22:06:26] [Server thread/INFO] [FML]: Starts to replace vanilla recipe ingredients with ore ingredients.
-[22:06:27] [Server thread/INFO] [FML]: Invalid recipe found with multiple oredict ingredients in the same ingredient...
-[22:06:27] [Server thread/INFO] [FML]: Replaced 1227 ore ingredients
-[22:06:27] [Server thread/INFO] [FML]: Searching /root/minecraft_server/./mods for mods
-[22:06:30] [Server thread/INFO] [FML]: Forge Mod Loader has identified 7 mods to load
-[22:06:30] [Server thread/WARN] [FML]: Missing English translation for FML: assets/fml/lang/en_us.lang
-[22:06:30] [Server thread/WARN] [FML]: Missing English translation for xaerominimap: assets/xaerominimap/lang/en_us.lang
-[22:06:30] [Server thread/INFO] [FML]: Attempting connection with missing mods [minecraft, mcp, FML, forge, xaerominimap_core, pixelmon, xaerominimap] at CLIENT
-[22:06:30] [Server thread/INFO] [FML]: Attempting connection with missing mods [minecraft, mcp, FML, forge, xaerominimap_core, pixelmon, xaerominimap] at SERVER
-[22:06:31] [Server thread/INFO] [FML]: Processing ObjectHolder annotations
-[22:06:31] [Server thread/INFO] [FML]: Found 1168 ObjectHolder annotations
-[22:06:31] [Server thread/INFO] [FML]: Identifying ItemStackHolder annotations
-[22:06:31] [Server thread/INFO] [FML]: Found 0 ItemStackHolder annotations
-[22:06:32] [Server thread/INFO] [STDOUT]: [xaero.common.core.transformer.ClassNodeTransformer:transform:26]: Transforming class axw net.minecraft.world.chunk.Chunk
-[22:06:32] [Server thread/INFO] [FML]: Configured a dormant chunk cache size of 0
-[22:06:32] [Server thread/INFO] [Pixelmon]: Loading Pixelmon version 8.3.6
-[22:06:32] [Forge Version Check/INFO] [forge.VersionCheck]: [pixelmon] Starting version check at https://reforged.gg/forge/update.json
-[22:06:33] [Forge Version Check/INFO] [forge.VersionCheck]: [pixelmon] Found status: OUTDATED Target: 8.3.7
-[22:06:33] [Forge Version Check/INFO] [forge.VersionCheck]: [forge] Starting version check at http://files.minecraftforge.net/maven/net/minecraftforge/forge/promotions_slim.json
-[22:06:33] [Server thread/INFO] [Pixelmon]: Checking for migrations..
-[22:06:34] [Server thread/INFO] [Pixelmon]: Loading Advancements
-[22:06:34] [Forge Version Check/INFO] [forge.VersionCheck]: [forge] Found status: UP_TO_DATE Target: null
-[22:06:36] [Server thread/INFO] [FML]: Applying holder lookups
-[22:06:36] [Server thread/INFO] [FML]: Holder lookups applied
-[22:06:37] [Server thread/INFO] [FML]: Applying holder lookups
-[22:06:37] [Server thread/INFO] [FML]: Holder lookups applied
-[22:06:37] [Server thread/INFO] [FML]: Applying holder lookups
-[22:06:37] [Server thread/INFO] [FML]: Holder lookups applied
-[22:06:37] [Server thread/INFO] [FML]: Applying holder lookups
-[22:06:37] [Server thread/INFO] [FML]: Holder lookups applied
-[22:06:37] [Server thread/INFO] [FML]: Injecting itemstacks
-[22:06:37] [Server thread/INFO] [FML]: Itemstack injection complete
-[22:06:37] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Loading properties
-[22:06:37] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Default game type: SURVIVAL
-[22:06:37] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Generating keypair
-[22:06:37] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Starting Minecraft server on pixelmon-container:25565
-[22:06:38] [Server thread/INFO] [net.minecraft.network.NetworkSystem]: Using epoll channel type
-[22:06:38] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[22:06:38] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer]: The server will make no attempt to authenticate usernames. Beware.
-[22:06:38] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[22:06:38] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer]: To change this, set "online-mode" to "true" in the server.properties file.
-[22:06:38] [Server thread/INFO] [FML]: Applying holder lookups
-[22:06:38] [Server thread/INFO] [FML]: Holder lookups applied
-[22:06:39] [Server thread/INFO] [Pixelmon]: Registering shop items.
-[22:06:39] [Server thread/INFO] [Pixelmon]: Registering NPCs.
-[22:06:39] [Server thread/INFO] [Pixelmon]: Registering structures.
-[22:06:39] [Server thread/INFO] [Pixelmon]: Registering all drops.
-[22:06:40] [Server thread/INFO] [Pixelmon]: Registering battle rules.
-[22:06:40] [Server thread/INFO] [Pixelmon]: Registering Pok?mon stats.
-[22:06:41] [Server thread/INFO] [Pixelmon]: Registering quests.
-[22:06:41] [Server thread/INFO] [Pixelmon]: Loaded 39 Quests.
-[22:06:42] [Server thread/INFO] [xaero.common.MinimapLogs]: Loading Xaero's Minimap - Stage 1/2 (Server)
-[22:06:42] [Server thread/INFO] [FML]: Injecting itemstacks
-[22:06:42] [Server thread/INFO] [FML]: Itemstack injection complete
-[22:06:42] [Server thread/INFO] [Pixelmon]: Registering spawn sets.
-[22:06:44] [Server thread/INFO] [Pixelmon]: Registering raid spawning.
-[22:06:44] [Server thread/INFO] [xaero.common.MinimapLogs]: Loading Xaero's Minimap - Stage 2/2 (Server)
-[22:06:44] [Server thread/INFO] [FML]: Forge Mod Loader has successfully loaded 7 mods
-[22:06:45] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Preparing level "world"
-[22:06:45] [Server thread/INFO] [FML]: Injecting existing registry data into this server instance
-[22:06:45] [Server thread/INFO] [FML]: Applying holder lookups
-[22:06:45] [Server thread/INFO] [FML]: Holder lookups applied
-[22:06:46] [Server thread/INFO] [FML]: Loading dimension 0 (world) (net.minecraft.server.dedicated.DedicatedServer@50252868)
-[22:06:46] [Server thread/INFO] [net.minecraft.advancements.AdvancementList]: Loaded 734 advancements
-[22:06:46] [Server thread/INFO] [FML]: Loading dimension -1 (world) (net.minecraft.server.dedicated.DedicatedServer@50252868)
-[22:06:46] [Server thread/INFO] [FML]: Loading dimension 1 (world) (net.minecraft.server.dedicated.DedicatedServer@50252868)
-[22:06:46] [Server thread/INFO] [FML]: Loading dimension 72 (world) (net.minecraft.server.dedicated.DedicatedServer@50252868)
-[22:06:46] [Server thread/INFO] [FML]: Loading dimension 73 (world) (net.minecraft.server.dedicated.DedicatedServer@50252868)
-[22:06:46] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Preparing start region for level 0
-[22:06:47] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Preparing spawn area: 8%
-[22:06:48] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Preparing spawn area: 91%
-[22:06:48] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Done (3.808s)! For help, type "help" or "?"
-[22:06:49] [Server thread/INFO] [FML]: Unloading dimension -1
-[22:06:49] [Server thread/INFO] [FML]: Unloading dimension 1
-[22:06:49] [Server thread/INFO] [FML]: Unloading dimension 72
-[22:06:49] [Server thread/INFO] [FML]: Unloading dimension 73
+[00:00:00] [Server thread/WARN] [net.minecraft.world.WorldServer]: Keeping entity pixelmon:pixelmon that already exists with UUID 6df301a3-4b48-430d-8b80-45760249b65c
+[00:00:42] [Server thread/WARN] [net.minecraft.world.WorldServer]: Keeping entity pixelmon:pixelmon that already exists with UUID 2ac4635a-db74-4dbd-9033-323f0557bbeb
+[00:00:46] [Server thread/WARN] [net.minecraft.world.WorldServer]: Keeping entity pixelmon:pixelmon that already exists with UUID 6df301a3-4b48-430d-8b80-45760249b65c
+[00:01:29] [Server thread/WARN] [net.minecraft.world.WorldServer]: Keeping entity pixelmon:pixelmon that already exists with UUID 6df301a3-4b48-430d-8b80-45760249b65c
+[00:02:08] [Server thread/WARN] [net.minecraft.world.WorldServer]: Keeping entity pixelmon:pixelmon that already exists with UUID 6df301a3-4b48-430d-8b80-45760249b65c
+[00:03:23] [Server thread/WARN] [net.minecraft.world.WorldServer]: Keeping entity pixelmon:pixelmon that already exists with UUID 6df301a3-4b48-430d-8b80-45760249b65c
+[00:03:41] [Server thread/WARN] [net.minecraft.world.WorldServer]: Keeping entity pixelmon:pixelmon that already exists with UUID 6df301a3-4b48-430d-8b80-45760249b65c
+[00:03:53] [Server thread/WARN] [net.minecraft.world.WorldServer]: Keeping entity pixelmon:pixelmon that already exists with UUID 6df301a3-4b48-430d-8b80-45760249b65c
+[00:04:46] [Server thread/WARN] [net.minecraft.world.WorldServer]: Keeping entity pixelmon:pixelmon that already exists with UUID 6df301a3-4b48-430d-8b80-45760249b65c
+[00:05:15] [Server thread/WARN] [net.minecraft.world.WorldServer]: Keeping entity pixelmon:pixelmon that already exists with UUID 6df301a3-4b48-430d-8b80-45760249b65c
+[00:06:12] [Server thread/WARN] [net.minecraft.world.WorldServer]: Keeping entity pixelmon:pixelmon that already exists with UUID 2ac4635a-db74-4dbd-9033-323f0557bbeb
+[00:06:14] [Server thread/WARN] [net.minecraft.world.WorldServer]: Keeping entity pixelmon:pixelmon that already exists with UUID 2ac4635a-db74-4dbd-9033-323f0557bbeb
+[00:07:24] [Netty Epoll Server IO #1/ERROR] [FML]: NetworkDispatcher exception
+io.netty.handler.timeout.ReadTimeoutException: null
+[00:07:24] [Server thread/INFO] [net.minecraft.network.NetHandlerPlayServer]: WilddHunter lost connection: Disconnected
+[00:07:24] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: WilddHunter left the game
+[00:07:24] [Netty Epoll Server IO #2/INFO] [FML]: Client protocol version 2
+[00:07:24] [Netty Epoll Server IO #2/INFO] [FML]: Client attempting to join with 7 mods : minecraft@1.12.2,FML@8.0.99.99,forge@14.23.5.2860,xaerominimap@22.3.1,mcp@9.42,xaerominimap_core@1.12.2-1.0,pixelmon@8.3.6
+[00:07:52] [Server thread/INFO] [FML]: [Server thread] Server side modded connection established
+[00:07:52] [Server thread/INFO] [net.minecraft.server.management.PlayerList]: WilddHunter[/25.72.248.14:57936] logged in with entity id 33029 at (37.03273270963454, 63.121600046157894, 159.71346467955948)
+[00:07:52] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: WilddHunter joined the game
+[00:07:57] [Server thread/WARN] [net.minecraft.world.WorldServer]: Keeping entity pixelmon:pixelmon that already exists with UUID 6df301a3-4b48-430d-8b80-45760249b65c
+[00:09:18] [Server thread/WARN] [net.minecraft.world.WorldServer]: Keeping entity pixelmon:pixelmon that already exists with UUID 6df301a3-4b48-430d-8b80-45760249b65c
+[00:09:21] [Server thread/WARN] [net.minecraft.world.WorldServer]: Keeping entity pixelmon:pixelmon that already exists with UUID 6df301a3-4b48-430d-8b80-45760249b65c
+[00:09:49] [Server thread/WARN] [net.minecraft.world.WorldServer]: Keeping entity pixelmon:pixelmon that already exists with UUID 6df301a3-4b48-430d-8b80-45760249b65c
+[00:11:31] [Server thread/WARN] [net.minecraft.world.WorldServer]: Keeping entity pixelmon:pixelmon that already exists with UUID 3407a25d-4b8b-494a-890b-7baa780fc453
+[00:11:43] [Server thread/WARN] [net.minecraft.world.WorldServer]: Keeping entity pixelmon:pixelmon that already exists with UUID 2ac4635a-db74-4dbd-9033-323f0557bbeb
+[00:12:26] [Server thread/WARN] [net.minecraft.world.WorldServer]: Keeping entity pixelmon:pixelmon that already exists with UUID 2ac4635a-db74-4dbd-9033-323f0557bbeb
+[00:12:33] [Server thread/WARN] [net.minecraft.world.WorldServer]: Keeping entity pixelmon:pixelmon that already exists with UUID 2ac4635a-db74-4dbd-9033-323f0557bbeb
+[00:12:37] [Server thread/INFO] [net.minecraft.network.NetHandlerPlayServer]: gabs lost connection: Disconnected
+[00:12:37] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: gabs left the game
+[00:15:26] [Server thread/WARN] [net.minecraft.world.WorldServer]: Keeping entity pixelmon:pixelmon that already exists with UUID 2ac4635a-db74-4dbd-9033-323f0557bbeb
+[00:15:43] [Server thread/WARN] [net.minecraft.world.WorldServer]: Keeping entity pixelmon:pixelmon that already exists with UUID 2ac4635a-db74-4dbd-9033-323f0557bbeb
+[00:16:27] [Server thread/WARN] [net.minecraft.world.WorldServer]: Keeping entity pixelmon:pixelmon that already exists with UUID 9c39b803-fef2-40ae-9dd3-93d909884fef
+[00:17:40] [Server thread/WARN] [net.minecraft.world.WorldServer]: Keeping entity pixelmon:pixelmon that already exists with UUID 2ac4635a-db74-4dbd-9033-323f0557bbeb
+[00:18:10] [Server thread/WARN] [net.minecraft.world.WorldServer]: Keeping entity pixelmon:pixelmon that already exists with UUID 3407a25d-4b8b-494a-890b-7baa780fc453
+[00:18:38] [Server thread/INFO] [net.minecraft.network.NetHandlerPlayServer]: WilddHunter lost connection: Timed out
+[00:18:38] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: WilddHunter left the game
