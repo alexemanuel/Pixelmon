@@ -1,234 +1,78 @@
-[13:14:43] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLServerTweaker
-[13:14:43] [main/INFO] [LaunchWrapper]: Using primary tweak class name net.minecraftforge.fml.common.launcher.FMLServerTweaker
-[13:14:43] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLServerTweaker
-[13:14:43] [main/INFO] [FML]: Forge Mod Loader version 14.23.5.2859 for Minecraft 1.12.2 loading
-[13:14:43] [main/INFO] [FML]: Java is OpenJDK 64-Bit Server VM, version 1.8.0_292, running on Linux:amd64:4.15.0-142-generic, installed at /usr/lib/jvm/java-8-openjdk-amd64/jre
-[13:14:43] [main/INFO] [FML]: Searching /root/minecraft_server/./mods for mods
-[13:14:43] [main/WARN] [FML]: Found FMLCorePluginContainsFMLMod marker in Xaeros_Minimap_22.3.0_Forge_1.12.jar. This is not recommended, @Mods should be in a separate jar from the coremod.
-[13:14:44] [main/WARN] [FML]: The coremod XaeroMinimapPlugin (xaero.common.core.XaeroMinimapPlugin) is not signed!
-[13:14:44] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
-[13:14:44] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLDeobfTweaker
-[13:14:44] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
-[13:14:44] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
-[13:14:44] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
-[13:14:46] [main/INFO] [FML]: Found valid fingerprint for Minecraft Forge. Certificate fingerprint e3c3d50c7c986df74c645c0ac54639741c90a557
-[13:14:46] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
-[13:14:46] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
-[13:14:46] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLDeobfTweaker
-[13:14:47] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.TerminalTweaker
-[13:14:47] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.TerminalTweaker
-[13:14:47] [main/INFO] [STDOUT]: [xaero.common.core.transformer.ClassNodeTransformer:transform:26]: Transforming class pl net.minecraft.server.management.PlayerList
-[13:14:47] [main/INFO] [STDOUT]: [xaero.common.core.transformer.ClassNodeTransformer:transform:26]: Transforming class aed net.minecraft.entity.player.EntityPlayer
-[13:14:47] [main/INFO] [LaunchWrapper]: Launching wrapped minecraft {net.minecraft.server.MinecraftServer}
-[13:14:53] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Starting minecraft server version 1.12.2
-[13:14:53] [Server thread/INFO] [FML]: MinecraftForge v14.23.5.2859 Initialized
-[13:14:53] [Server thread/INFO] [FML]: Starts to replace vanilla recipe ingredients with ore ingredients.
-[13:14:53] [Server thread/INFO] [FML]: Invalid recipe found with multiple oredict ingredients in the same ingredient...
-[13:14:54] [Server thread/INFO] [FML]: Replaced 1227 ore ingredients
-[13:14:54] [Server thread/INFO] [FML]: Searching /root/minecraft_server/./mods for mods
-[13:14:56] [Server thread/INFO] [FML]: Forge Mod Loader has identified 7 mods to load
-[13:14:56] [Server thread/WARN] [FML]: Missing English translation for FML: assets/fml/lang/en_us.lang
-[13:14:56] [Server thread/WARN] [FML]: Missing English translation for xaerominimap: assets/xaerominimap/lang/en_us.lang
-[13:14:56] [Server thread/INFO] [FML]: Attempting connection with missing mods [minecraft, mcp, FML, forge, xaerominimap_core, pixelmon, xaerominimap] at CLIENT
-[13:14:56] [Server thread/INFO] [FML]: Attempting connection with missing mods [minecraft, mcp, FML, forge, xaerominimap_core, pixelmon, xaerominimap] at SERVER
-[13:14:57] [Server thread/INFO] [FML]: Processing ObjectHolder annotations
-[13:14:57] [Server thread/INFO] [FML]: Found 1168 ObjectHolder annotations
-[13:14:57] [Server thread/INFO] [FML]: Identifying ItemStackHolder annotations
-[13:14:57] [Server thread/INFO] [FML]: Found 0 ItemStackHolder annotations
-[13:14:58] [Server thread/INFO] [STDOUT]: [xaero.common.core.transformer.ClassNodeTransformer:transform:26]: Transforming class axw net.minecraft.world.chunk.Chunk
-[13:14:58] [Server thread/INFO] [FML]: Configured a dormant chunk cache size of 0
-[13:14:58] [Forge Version Check/INFO] [forge.VersionCheck]: [forge] Starting version check at http://files.minecraftforge.net/maven/net/minecraftforge/forge/promotions_slim.json
-[13:14:58] [Server thread/INFO] [Pixelmon]: Loading Pixelmon version 8.3.6
-[13:14:59] [Server thread/INFO] [Pixelmon]: Checking for migrations..
-[13:15:00] [Server thread/INFO] [Pixelmon]: Loading Advancements
-[13:15:00] [Forge Version Check/INFO] [forge.VersionCheck]: [forge] Found status: UP_TO_DATE Target: null
-[13:15:00] [Forge Version Check/INFO] [forge.VersionCheck]: [pixelmon] Starting version check at https://reforged.gg/forge/update.json
-[13:15:01] [Forge Version Check/INFO] [forge.VersionCheck]: [pixelmon] Found status: OUTDATED Target: 8.3.7
-[13:15:03] [Server thread/INFO] [FML]: Applying holder lookups
-[13:15:03] [Server thread/INFO] [FML]: Holder lookups applied
-[13:15:03] [Server thread/INFO] [FML]: Applying holder lookups
-[13:15:03] [Server thread/INFO] [FML]: Holder lookups applied
-[13:15:03] [Server thread/INFO] [FML]: Applying holder lookups
-[13:15:03] [Server thread/INFO] [FML]: Holder lookups applied
-[13:15:03] [Server thread/INFO] [FML]: Applying holder lookups
-[13:15:03] [Server thread/INFO] [FML]: Holder lookups applied
-[13:15:03] [Server thread/INFO] [FML]: Injecting itemstacks
-[13:15:03] [Server thread/INFO] [FML]: Itemstack injection complete
-[13:15:03] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Loading properties
-[13:15:03] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Default game type: SURVIVAL
-[13:15:03] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Generating keypair
-[13:15:03] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Starting Minecraft server on pixelmon-container:25565
-[13:15:04] [Server thread/INFO] [net.minecraft.network.NetworkSystem]: Using epoll channel type
-[13:15:04] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[13:15:04] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer]: The server will make no attempt to authenticate usernames. Beware.
-[13:15:04] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[13:15:04] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer]: To change this, set "online-mode" to "true" in the server.properties file.
-[13:15:04] [Server thread/INFO] [FML]: Applying holder lookups
-[13:15:04] [Server thread/INFO] [FML]: Holder lookups applied
-[13:15:05] [Server thread/INFO] [Pixelmon]: Registering shop items.
-[13:15:05] [Server thread/INFO] [Pixelmon]: Registering NPCs.
-[13:15:05] [Server thread/INFO] [Pixelmon]: Registering structures.
-[13:15:05] [Server thread/INFO] [Pixelmon]: Registering all drops.
-[13:15:06] [Server thread/INFO] [Pixelmon]: Registering battle rules.
-[13:15:06] [Server thread/INFO] [Pixelmon]: Registering Pok?mon stats.
-[13:15:07] [Server thread/INFO] [Pixelmon]: Registering quests.
-[13:15:07] [Server thread/INFO] [Pixelmon]: Loaded 39 Quests.
-[13:15:08] [Server thread/INFO] [xaero.common.MinimapLogs]: Loading Xaero's Minimap - Stage 1/2 (Server)
-[13:15:08] [Server thread/INFO] [FML]: Injecting itemstacks
-[13:15:08] [Server thread/INFO] [FML]: Itemstack injection complete
-[13:15:08] [Server thread/INFO] [Pixelmon]: Registering spawn sets.
-[13:15:10] [Server thread/INFO] [Pixelmon]: Registering raid spawning.
-[13:15:10] [Server thread/INFO] [xaero.common.MinimapLogs]: Loading Xaero's Minimap - Stage 2/2 (Server)
-[13:15:10] [Server thread/INFO] [FML]: Forge Mod Loader has successfully loaded 7 mods
-[13:15:10] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Preparing level "world"
-[13:15:10] [Server thread/INFO] [FML]: Injecting existing registry data into this server instance
-[13:15:11] [Server thread/INFO] [FML]: Applying holder lookups
-[13:15:11] [Server thread/INFO] [FML]: Holder lookups applied
-[13:15:11] [Server thread/INFO] [FML]: Loading dimension 0 (world) (net.minecraft.server.dedicated.DedicatedServer@14efd890)
-[13:15:12] [Server thread/INFO] [net.minecraft.advancements.AdvancementList]: Loaded 734 advancements
-[13:15:12] [Server thread/INFO] [FML]: Loading dimension -1 (world) (net.minecraft.server.dedicated.DedicatedServer@14efd890)
-[13:15:12] [Server thread/INFO] [FML]: Loading dimension 1 (world) (net.minecraft.server.dedicated.DedicatedServer@14efd890)
-[13:15:12] [Server thread/INFO] [FML]: Loading dimension 72 (world) (net.minecraft.server.dedicated.DedicatedServer@14efd890)
-[13:15:12] [Server thread/INFO] [FML]: Loading dimension 73 (world) (net.minecraft.server.dedicated.DedicatedServer@14efd890)
-[13:15:12] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Preparing start region for level 0
-[13:15:13] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Preparing spawn area: 0%
-[13:15:14] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Preparing spawn area: 56%
-[13:15:14] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Done (4.185s)! For help, type "help" or "?"
-[13:15:15] [Server thread/INFO] [FML]: Unloading dimension -1
-[13:15:15] [Server thread/INFO] [FML]: Unloading dimension 1
-[13:15:15] [Server thread/INFO] [FML]: Unloading dimension 72
-[13:15:15] [Server thread/INFO] [FML]: Unloading dimension 73
-[13:24:36] [Netty Epoll Server IO #2/INFO] [FML]: Client protocol version 2
-[13:24:36] [Netty Epoll Server IO #2/INFO] [FML]: Client attempting to join with 7 mods : minecraft@1.12.2,FML@8.0.99.99,forge@14.23.5.2860,xaerominimap@22.3.1,mcp@9.42,xaerominimap_core@1.12.2-1.0,pixelmon@8.3.6
-[13:25:06] [Netty Epoll Server IO #2/ERROR] [FML]: NetworkDispatcher exception
-io.netty.handler.timeout.ReadTimeoutException: null
-[13:25:06] [Server thread/INFO] [net.minecraft.network.NetHandlerPlayServer]: WilddHunter lost connection: Timed out
-[13:25:06] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: WilddHunter left the game
-[13:25:07] [Server thread/WARN] [Pixelmon]: Found invalid objective progress data in an instance of quest Talk To NPC.json, resetting that instance!
-[13:25:59] [Netty Epoll Server IO #3/INFO] [FML]: Client protocol version 2
-[13:25:59] [Netty Epoll Server IO #3/INFO] [FML]: Client attempting to join with 7 mods : minecraft@1.12.2,FML@8.0.99.99,forge@14.23.5.2860,xaerominimap@22.3.1,mcp@9.42,xaerominimap_core@1.12.2-1.0,pixelmon@8.3.6
-[13:26:00] [Server thread/INFO] [FML]: [Server thread] Server side modded connection established
-[13:26:00] [Server thread/INFO] [net.minecraft.server.management.PlayerList]: WilddHunter[/25.72.248.14:53379] logged in with entity id 30 at (330.6294443728307, 80.10599994659424, 229.05299996137626)
-[13:26:00] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: WilddHunter joined the game
-[13:28:44] [Server thread/WARN] [net.minecraft.world.WorldServer]: Keeping entity pixelmon:pixelmon that already exists with UUID 3407a25d-4b8b-494a-890b-7baa780fc453
-[13:29:47] [Server thread/WARN] [net.minecraft.world.WorldServer]: Keeping entity pixelmon:pixelmon that already exists with UUID e8676618-cb78-4a42-aecd-c52bb5c85094
-[13:32:13] [Server thread/WARN] [net.minecraft.world.WorldServer]: Keeping entity pixelmon:pixelmon that already exists with UUID e8676618-cb78-4a42-aecd-c52bb5c85094
-[13:32:40] [Server thread/WARN] [net.minecraft.world.WorldServer]: Keeping entity pixelmon:pixelmon that already exists with UUID e8676618-cb78-4a42-aecd-c52bb5c85094
-[13:34:37] [Server thread/WARN] [net.minecraft.world.WorldServer]: Keeping entity pixelmon:pixelmon that already exists with UUID e8676618-cb78-4a42-aecd-c52bb5c85094
-[13:36:11] [Netty Epoll Server IO #3/ERROR] [FML]: NetworkDispatcher exception
-io.netty.handler.timeout.ReadTimeoutException: null
-[13:36:11] [Server thread/INFO] [net.minecraft.network.NetHandlerPlayServer]: WilddHunter lost connection: Disconnected
-[13:36:11] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: WilddHunter left the game
-[13:36:11] [Netty Epoll Server IO #4/INFO] [FML]: Client protocol version 2
-[13:36:11] [Netty Epoll Server IO #4/INFO] [FML]: Client attempting to join with 7 mods : minecraft@1.12.2,FML@8.0.99.99,forge@14.23.5.2860,xaerominimap@22.3.1,mcp@9.42,xaerominimap_core@1.12.2-1.0,pixelmon@8.3.6
-[13:36:39] [Server thread/INFO] [FML]: [Server thread] Server side modded connection established
-[13:36:39] [Server thread/INFO] [net.minecraft.server.management.PlayerList]: WilddHunter[/25.72.248.14:59299] logged in with entity id 1330 at (280.97444069290094, 73.0, 292.69999998807907)
-[13:36:39] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: WilddHunter joined the game
-[13:36:54] [Server thread/WARN] [net.minecraft.world.WorldServer]: Keeping entity pixelmon:pixelmon that already exists with UUID 3407a25d-4b8b-494a-890b-7baa780fc453
-[13:37:35] [Server thread/WARN] [net.minecraft.world.WorldServer]: Keeping entity pixelmon:pixelmon that already exists with UUID 3407a25d-4b8b-494a-890b-7baa780fc453
-[13:38:02] [Server thread/WARN] [net.minecraft.network.NetHandlerPlayServer]: Salamence (vehicle of WilddHunter) moved too quickly! 28.672451592205192,13.490311347392009,-2.256413055275118
-[13:38:02] [Server thread/WARN] [net.minecraft.network.NetHandlerPlayServer]: Salamence (vehicle of WilddHunter) moved too quickly! 27.99488569393114,13.77252009088457,-2.20225097890642
-[13:38:02] [Server thread/WARN] [net.minecraft.network.NetHandlerPlayServer]: Salamence (vehicle of WilddHunter) moved too quickly! 27.32692425953917,14.024345373036027,-2.1490532792249724
-[13:38:02] [Server thread/WARN] [net.minecraft.network.NetHandlerPlayServer]: Salamence (vehicle of WilddHunter) moved too quickly! 26.667528086284108,14.246990378347576,-2.096715610698027
-[13:38:02] [Server thread/WARN] [net.minecraft.network.NetHandlerPlayServer]: Salamence (vehicle of WilddHunter) moved too quickly! 26.015770413131065,14.441610645236622,-2.0451449179766996
-[13:38:02] [Server thread/WARN] [net.minecraft.network.NetHandlerPlayServer]: Salamence (vehicle of WilddHunter) moved too quickly! 25.37083812835749,14.609315952820879,-1.9940872099697344
-[13:38:02] [Server thread/WARN] [net.minecraft.network.NetHandlerPlayServer]: Salamence (vehicle of WilddHunter) moved too quickly! 24.731992725116157,14.751172132985701,-1.9434869817441722
-[13:38:02] [Server thread/WARN] [net.minecraft.network.NetHandlerPlayServer]: Salamence (vehicle of WilddHunter) moved too quickly! 24.098575602981697,14.868202810693731,-1.8932947339994257
-[13:38:02] [Server thread/WARN] [net.minecraft.network.NetHandlerPlayServer]: Salamence (vehicle of WilddHunter) moved too quickly! 23.469999422077876,14.96139107537823,-1.843466323257985
-[13:38:02] [Server thread/WARN] [net.minecraft.network.NetHandlerPlayServer]: Salamence (vehicle of WilddHunter) moved too quickly! 22.845727018895786,15.031681086149263,-1.7941333866942841
-[13:38:02] [Server thread/WARN] [net.minecraft.network.NetHandlerPlayServer]: Salamence (vehicle of WilddHunter) moved too quickly! 22.22528025997522,15.079979613433778,-1.7454072451894262
-[13:38:02] [Server thread/WARN] [net.minecraft.network.NetHandlerPlayServer]: Salamence (vehicle of WilddHunter) moved too quickly! 21.608221152780658,15.107157519566783,-1.697558309887654
-[13:38:02] [Server thread/WARN] [net.minecraft.network.NetHandlerPlayServer]: Salamence (vehicle of WilddHunter) moved too quickly! 20.994161256226022,15.11405118075109,-1.6508217427219734
-[13:38:02] [Server thread/WARN] [net.minecraft.network.NetHandlerPlayServer]: Salamence (vehicle of WilddHunter) moved too quickly! 20.382776055797166,15.10146385270751,-1.6050771854886534
-[13:38:03] [Server thread/WARN] [net.minecraft.network.NetHandlerPlayServer]: Salamence (vehicle of WilddHunter) moved too quickly! 19.77377614944203,15.07016698224534,-1.5632510038361147
-[13:38:03] [Server thread/WARN] [net.minecraft.network.NetHandlerPlayServer]: Salamence (vehicle of WilddHunter) moved too quickly! 19.166903448403133,15.020901466894628,-1.5191800738128336
-[13:38:03] [Server thread/WARN] [net.minecraft.network.NetHandlerPlayServer]: Salamence (vehicle of WilddHunter) moved too quickly! 18.56192778911995,14.954378864657087,-1.4758127318515903
-[13:38:03] [Server thread/WARN] [net.minecraft.network.NetHandlerPlayServer]: Salamence (vehicle of WilddHunter) moved too quickly! 17.958643911723243,14.871282555850868,-1.4330728497421887
-[13:38:03] [Server thread/WARN] [net.minecraft.network.NetHandlerPlayServer]: Salamence (vehicle of WilddHunter) moved too quickly! 17.35685845385285,14.772268858946305,-1.3910576153666057
-[13:38:03] [Server thread/WARN] [net.minecraft.network.NetHandlerPlayServer]: Salamence (vehicle of WilddHunter) moved too quickly! 16.756409286554543,14.657968102214554,-1.349688621858661
-[13:38:03] [Server thread/WARN] [net.minecraft.network.NetHandlerPlayServer]: Salamence (vehicle of WilddHunter) moved too quickly! 16.157151823222762,14.528985652939028,-1.30889594597312
-[13:38:03] [Server thread/WARN] [net.minecraft.network.NetHandlerPlayServer]: Salamence (vehicle of WilddHunter) moved too quickly! 15.558957121518944,14.385902905870026,-1.2686172301580427
-[13:38:03] [Server thread/WARN] [net.minecraft.network.NetHandlerPlayServer]: Salamence (vehicle of WilddHunter) moved too quickly! 14.961710190662245,14.229278232536615,-1.2287968639469682
-[13:38:03] [Server thread/WARN] [net.minecraft.network.NetHandlerPlayServer]: Salamence (vehicle of WilddHunter) moved too quickly! 14.36530848187141,14.059647892965742,-1.18938525392457
-[13:38:03] [Server thread/WARN] [net.minecraft.network.NetHandlerPlayServer]: Salamence (vehicle of WilddHunter) moved too quickly! 13.769660542140599,13.877526911297295,-1.1503381726816997
-[13:38:03] [Server thread/WARN] [net.minecraft.network.NetHandlerPlayServer]: Salamence (vehicle of WilddHunter) moved too quickly! 13.17468481367689,13.68340991672487,-1.1116161782138079
-[13:38:03] [Server thread/WARN] [net.minecraft.network.NetHandlerPlayServer]: Salamence (vehicle of WilddHunter) moved too quickly! 12.580308563238475,13.477771951135239,-1.07318409614021
-[13:38:03] [Server thread/WARN] [net.minecraft.network.NetHandlerPlayServer]: Salamence (vehicle of WilddHunter) moved too quickly! 11.986466927318418,13.261069244765324,-1.0350105579472597
-[13:38:03] [Server thread/WARN] [net.minecraft.network.NetHandlerPlayServer]: Salamence (vehicle of WilddHunter) moved too quickly! 11.393102060639592,13.033739961143212,-0.9970675891937049
-[13:38:03] [Server thread/WARN] [net.minecraft.network.NetHandlerPlayServer]: Salamence (vehicle of WilddHunter) moved too quickly! 10.800162376782339,12.796204912529447,-0.9593302422721877
-[13:38:03] [Server thread/WARN] [net.minecraft.network.NetHandlerPlayServer]: Salamence (vehicle of WilddHunter) moved too quickly! 10.207601870976276,12.548868247026945,-0.9217762689057167
-[13:38:03] [Server thread/WARN] [net.minecraft.network.NetHandlerPlayServer]: Salamence (vehicle of WilddHunter) moved too quickly! 9.61537951616603,12.292118108481276,-0.8843858280803829
-[13:38:03] [Server thread/WARN] [net.minecraft.network.NetHandlerPlayServer]: Salamence (vehicle of WilddHunter) moved too quickly! 9.02345872442254,12.026327270248999,-0.8471412255794348
-[13:38:03] [Server thread/WARN] [net.minecraft.network.NetHandlerPlayServer]: Salamence (vehicle of WilddHunter) moved too quickly! 8.431806866629728,11.751853743868708,-0.8100266816998669
-[13:38:03] [Server thread/WARN] [net.minecraft.network.NetHandlerPlayServer]: Salamence (vehicle of WilddHunter) moved too quickly! 7.840394844141031,11.469041363628776,-0.7730281241022681
-[13:38:03] [Server thread/WARN] [net.minecraft.network.NetHandlerPlayServer]: Salamence (vehicle of WilddHunter) moved too quickly! 7.249196706782726,11.17822034798617,-0.73613300307386
-[13:38:03] [Server thread/WARN] [net.minecraft.network.NetHandlerPlayServer]: Salamence (vehicle of WilddHunter) moved too quickly! 6.658189312189194,10.879707838753134,-0.6993301267805236
-[13:38:03] [Server thread/WARN] [net.minecraft.network.NetHandlerPlayServer]: Salamence (vehicle of WilddHunter) moved too quickly! 6.067352021998204,10.573808418932089,-0.6626095143442967
-[13:38:03] [Server thread/WARN] [net.minecraft.network.NetHandlerPlayServer]: Salamence (vehicle of WilddHunter) moved too quickly! 5.47666643091776,10.26081461004425,-0.6259622648179857
-[13:38:03] [Server thread/WARN] [net.minecraft.network.NetHandlerPlayServer]: Salamence (vehicle of WilddHunter) moved too quickly! 4.886116125108003,9.941007349764035,-0.5893804403365834
-[13:38:03] [Server thread/WARN] [net.minecraft.network.NetHandlerPlayServer]: Salamence (vehicle of WilddHunter) moved too quickly! 4.295686466706115,9.614656450639231,-0.5528569619119139
-[13:38:03] [Server thread/WARN] [net.minecraft.network.NetHandlerPlayServer]: Salamence (vehicle of WilddHunter) moved too quickly! -10.447923048132651,0.0,0.35194485221990135
-[13:38:03] [Server thread/WARN] [net.minecraft.network.NetHandlerPlayServer]: Salamence (vehicle of WilddHunter) moved too quickly! -11.135714928635366,0.26337499999999636,0.40582465863184325
-[13:38:03] [Server thread/WARN] [net.minecraft.network.NetHandlerPlayServer]: Salamence (vehicle of WilddHunter) moved too quickly! -11.81286462584768,0.49711235454915936,0.4577744777867565
-[13:39:02] [Netty Epoll Server IO #4/ERROR] [FML]: NetworkDispatcher exception
-io.netty.handler.timeout.ReadTimeoutException: null
-[13:39:02] [Server thread/INFO] [net.minecraft.network.NetHandlerPlayServer]: WilddHunter lost connection: Disconnected
-[13:39:02] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: WilddHunter left the game
-[13:39:03] [Netty Epoll Server IO #5/INFO] [FML]: Client protocol version 2
-[13:39:03] [Netty Epoll Server IO #5/INFO] [FML]: Client attempting to join with 7 mods : minecraft@1.12.2,FML@8.0.99.99,forge@14.23.5.2860,xaerominimap@22.3.1,mcp@9.42,xaerominimap_core@1.12.2-1.0,pixelmon@8.3.6
-[13:39:17] [Server thread/INFO] [FML]: [Server thread] Server side modded connection established
-[13:39:17] [Server thread/INFO] [net.minecraft.server.management.PlayerList]: WilddHunter[/25.72.248.14:59318] logged in with entity id 1679 at (103.5, 68.0, 267.5)
-[13:39:17] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: WilddHunter joined the game
-[13:39:17] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: WilddHunter has made the advancement [Diamonds!]
-[13:41:28] [Server thread/WARN] [net.minecraft.world.WorldServer]: Keeping entity pixelmon:pixelmon that already exists with UUID e8676618-cb78-4a42-aecd-c52bb5c85094
-[13:42:23] [Server thread/WARN] [net.minecraft.world.WorldServer]: Keeping entity pixelmon:pixelmon that already exists with UUID e8676618-cb78-4a42-aecd-c52bb5c85094
-[13:44:27] [Server thread/WARN] [net.minecraft.world.WorldServer]: Keeping entity pixelmon:pixelmon that already exists with UUID e8676618-cb78-4a42-aecd-c52bb5c85094
-[13:44:48] [Server thread/WARN] [net.minecraft.world.WorldServer]: Keeping entity pixelmon:pixelmon that already exists with UUID e8676618-cb78-4a42-aecd-c52bb5c85094
-[13:45:51] [Server thread/WARN] [net.minecraft.world.WorldServer]: Keeping entity pixelmon:pixelmon that already exists with UUID e8676618-cb78-4a42-aecd-c52bb5c85094
-[13:46:20] [Server thread/WARN] [net.minecraft.world.WorldServer]: Keeping entity pixelmon:pixelmon that already exists with UUID 3407a25d-4b8b-494a-890b-7baa780fc453
-[13:46:27] [Server thread/WARN] [net.minecraft.world.WorldServer]: Keeping entity pixelmon:pixelmon that already exists with UUID 3407a25d-4b8b-494a-890b-7baa780fc453
-[13:50:09] [Netty Epoll Server IO #5/ERROR] [FML]: NetworkDispatcher exception
-io.netty.handler.timeout.ReadTimeoutException: null
-[13:50:09] [Server thread/INFO] [net.minecraft.network.NetHandlerPlayServer]: WilddHunter lost connection: Disconnected
-[13:50:09] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: WilddHunter left the game
-[13:50:09] [Netty Epoll Server IO #6/INFO] [FML]: Client protocol version 2
-[13:50:09] [Netty Epoll Server IO #6/INFO] [FML]: Client attempting to join with 7 mods : minecraft@1.12.2,FML@8.0.99.99,forge@14.23.5.2860,xaerominimap@22.3.1,mcp@9.42,xaerominimap_core@1.12.2-1.0,pixelmon@8.3.6
-[13:50:38] [Server thread/INFO] [FML]: [Server thread] Server side modded connection established
-[13:50:38] [Server thread/INFO] [net.minecraft.server.management.PlayerList]: WilddHunter[/25.72.248.14:59388] logged in with entity id 3020 at (1656.9470000386239, 69.10599994659424, -70.9470000386238)
-[13:50:38] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: WilddHunter joined the game
-[13:50:38] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: WilddHunter has made the advancement [Diamonds!]
-[13:52:14] [Server thread/WARN] [net.minecraft.world.WorldServer]: Keeping entity pixelmon:pixelmon that already exists with UUID e8676618-cb78-4a42-aecd-c52bb5c85094
-[13:54:50] [Server thread/WARN] [net.minecraft.world.WorldServer]: Keeping entity pixelmon:pixelmon that already exists with UUID 3407a25d-4b8b-494a-890b-7baa780fc453
-[13:56:19] [Server thread/WARN] [net.minecraft.world.WorldServer]: Keeping entity pixelmon:pixelmon that already exists with UUID e8676618-cb78-4a42-aecd-c52bb5c85094
-[13:57:01] [Server thread/WARN] [net.minecraft.server.MinecraftServer]: Can't keep up! Did the system time change, or is the server overloaded? Running 8666ms behind, skipping 173 tick(s)
-[13:57:27] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: WilddHunter has made the advancement [Cull the Weeds]
-[13:58:00] [Server thread/WARN] [net.minecraft.world.WorldServer]: Keeping entity pixelmon:pixelmon that already exists with UUID 3407a25d-4b8b-494a-890b-7baa780fc453
-[13:58:12] [Server thread/WARN] [net.minecraft.server.MinecraftServer]: Can't keep up! Did the system time change, or is the server overloaded? Running 4641ms behind, skipping 92 tick(s)
-[13:59:12] [Server thread/WARN] [net.minecraft.world.WorldServer]: Keeping entity pixelmon:pixelmon that already exists with UUID 3407a25d-4b8b-494a-890b-7baa780fc453
-[13:59:35] [Server thread/WARN] [net.minecraft.world.WorldServer]: Keeping entity pixelmon:pixelmon that already exists with UUID 3407a25d-4b8b-494a-890b-7baa780fc453
-[14:00:39] [Server thread/INFO] [net.minecraft.network.NetHandlerPlayServer]: WilddHunter lost connection: Timed out
-[14:00:39] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: WilddHunter left the game
-[14:01:06] [Netty Epoll Server IO #7/INFO] [FML]: Client protocol version 2
-[14:01:06] [Netty Epoll Server IO #7/INFO] [FML]: Client attempting to join with 7 mods : minecraft@1.12.2,FML@8.0.99.99,forge@14.23.5.2860,xaerominimap@22.3.1,mcp@9.42,xaerominimap_core@1.12.2-1.0,pixelmon@8.3.6
-[14:01:33] [Server thread/INFO] [FML]: [Server thread] Server side modded connection established
-[14:01:33] [Server thread/INFO] [net.minecraft.server.management.PlayerList]: WilddHunter[/25.72.248.14:63327] logged in with entity id 4984 at (2280.7043863309414, 71.0, -131.73124758506606)
-[14:01:33] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: WilddHunter joined the game
-[14:01:33] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: WilddHunter has made the advancement [Diamonds!]
-[14:01:34] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [Pixelmon] Hoopa has appeared in a den in a Desert biome!
-[14:01:34] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Spawned Hoopa at: world x:2395, y:63, z:-31
-[14:02:54] [Server thread/WARN] [net.minecraft.world.WorldServer]: Keeping entity pixelmon:pixelmon that already exists with UUID 9c39b803-fef2-40ae-9dd3-93d909884fef
-[14:03:36] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [Pixelmon] Keldeo has spawned in a River biome!
-[14:03:36] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Spawned Keldeo at: world x:1722, y:66, z:-57
-[14:16:38] [Netty Epoll Server IO #7/ERROR] [FML]: NetworkDispatcher exception
-io.netty.handler.timeout.ReadTimeoutException: null
-[14:16:38] [Server thread/INFO] [net.minecraft.network.NetHandlerPlayServer]: WilddHunter lost connection: Disconnected
-[14:16:38] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: WilddHunter left the game
-[14:16:38] [Netty Epoll Server IO #0/INFO] [FML]: Client protocol version 2
-[14:16:38] [Netty Epoll Server IO #0/INFO] [FML]: Client attempting to join with 7 mods : minecraft@1.12.2,FML@8.0.99.99,forge@14.23.5.2860,xaerominimap@22.3.1,mcp@9.42,xaerominimap_core@1.12.2-1.0,pixelmon@8.3.6
-[14:17:06] [Server thread/INFO] [FML]: [Server thread] Server side modded connection established
-[14:17:06] [Server thread/INFO] [net.minecraft.server.management.PlayerList]: WilddHunter[/25.72.248.14:63422] logged in with entity id 6989 at (21.157476033398478, 64.0, 139.6838978010903)
-[14:17:06] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: WilddHunter joined the game
-[14:18:45] [Server thread/WARN] [net.minecraft.world.WorldServer]: Keeping entity pixelmon:pixelmon that already exists with UUID 3407a25d-4b8b-494a-890b-7baa780fc453
-[14:21:50] [Server thread/WARN] [net.minecraft.world.WorldServer]: Keeping entity pixelmon:pixelmon that already exists with UUID e8676618-cb78-4a42-aecd-c52bb5c85094
-[14:22:08] [Server thread/INFO] [net.minecraft.network.NetHandlerPlayServer]: WilddHunter lost connection: Disconnected
-[14:22:08] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: WilddHunter left the game
+[00:02:00] [Server thread/WARN] [net.minecraft.world.WorldServer]: Keeping entity pixelmon:pixelmon that already exists with UUID b63a9ee1-38de-435a-9ba5-72089088ea24
+[00:02:27] [Server thread/WARN] [net.minecraft.world.WorldServer]: Keeping entity pixelmon:pixelmon that already exists with UUID 3336bc79-8a36-4fc7-808f-13b260bac379
+[00:03:14] [Server thread/WARN] [net.minecraft.world.WorldServer]: Keeping entity pixelmon:pixelmon that already exists with UUID 3336bc79-8a36-4fc7-808f-13b260bac379
+[00:03:49] [Server thread/WARN] [net.minecraft.world.WorldServer]: Keeping entity pixelmon:pixelmon that already exists with UUID 3336bc79-8a36-4fc7-808f-13b260bac379
+[00:04:05] [Server thread/WARN] [net.minecraft.world.WorldServer]: Keeping entity pixelmon:pixelmon that already exists with UUID b63a9ee1-38de-435a-9ba5-72089088ea24
+[00:05:23] [Server thread/WARN] [net.minecraft.world.WorldServer]: Keeping entity pixelmon:pixelmon that already exists with UUID 72d48739-7103-4fd7-86b7-9ab36d421068
+[00:06:20] [Server thread/WARN] [net.minecraft.world.WorldServer]: Keeping entity pixelmon:pixelmon that already exists with UUID 72d48739-7103-4fd7-86b7-9ab36d421068
+[00:08:57] [Server thread/INFO] [net.minecraft.network.NetHandlerPlayServer]: gabs lost connection: Disconnected
+[00:08:57] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: gabs left the game
+[00:09:45] [Server thread/WARN] [net.minecraft.network.NetHandlerPlayServer]: WilddHunter moved wrongly!
+[00:11:19] [Server thread/WARN] [net.minecraft.world.WorldServer]: Keeping entity pixelmon:pixelmon that already exists with UUID 3336bc79-8a36-4fc7-808f-13b260bac379
+[00:11:19] [Server thread/WARN] [net.minecraft.world.WorldServer]: Keeping entity pixelmon:pixelmon that already exists with UUID 9c39b803-fef2-40ae-9dd3-93d909884fef
+[00:12:25] [Server thread/WARN] [net.minecraft.network.NetHandlerPlayServer]: odin moved wrongly!
+[00:13:24] [Server thread/WARN] [net.minecraft.world.WorldServer]: Keeping entity pixelmon:pixelmon that already exists with UUID a295d123-1abe-47c3-be2a-3b3048516d33
+[00:13:34] [Server thread/WARN] [net.minecraft.world.WorldServer]: Keeping entity pixelmon:pixelmon that already exists with UUID a295d123-1abe-47c3-be2a-3b3048516d33
+[00:17:05] [Server thread/WARN] [net.minecraft.world.WorldServer]: Keeping entity pixelmon:pixelmon that already exists with UUID 3336bc79-8a36-4fc7-808f-13b260bac379
+[00:17:26] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Set the time to 13000
+[00:17:51] [Server thread/WARN] [net.minecraft.world.WorldServer]: Keeping entity pixelmon:pixelmon that already exists with UUID 3407a25d-4b8b-494a-890b-7baa780fc453
+[00:18:45] [Server thread/WARN] [net.minecraft.world.WorldServer]: Keeping entity pixelmon:pixelmon that already exists with UUID a295d123-1abe-47c3-be2a-3b3048516d33
+[00:18:52] [Server thread/WARN] [net.minecraft.world.WorldServer]: Keeping entity pixelmon:pixelmon that already exists with UUID e8676618-cb78-4a42-aecd-c52bb5c85094
+[00:20:10] [Server thread/WARN] [net.minecraft.world.WorldServer]: Keeping entity pixelmon:pixelmon that already exists with UUID a295d123-1abe-47c3-be2a-3b3048516d33
+[00:21:23] [Server thread/WARN] [net.minecraft.world.WorldServer]: Keeping entity pixelmon:pixelmon that already exists with UUID 3336bc79-8a36-4fc7-808f-13b260bac379
+[00:21:45] [Server thread/WARN] [net.minecraft.world.WorldServer]: Keeping entity pixelmon:pixelmon that already exists with UUID 3336bc79-8a36-4fc7-808f-13b260bac379
+[00:23:13] [Server thread/WARN] [net.minecraft.world.WorldServer]: Keeping entity pixelmon:pixelmon that already exists with UUID 3336bc79-8a36-4fc7-808f-13b260bac379
+[00:23:31] [Server thread/WARN] [net.minecraft.world.WorldServer]: Keeping entity pixelmon:pixelmon that already exists with UUID e8676618-cb78-4a42-aecd-c52bb5c85094
+[00:24:24] [Server thread/WARN] [net.minecraft.world.WorldServer]: Keeping entity pixelmon:pixelmon that already exists with UUID 3336bc79-8a36-4fc7-808f-13b260bac379
+[00:24:34] [Server thread/WARN] [net.minecraft.world.WorldServer]: Keeping entity pixelmon:pixelmon that already exists with UUID 3407a25d-4b8b-494a-890b-7baa780fc453
+[00:24:50] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [Pixelmon] Manaphy has appeared in a den in a Beach biome!
+[00:24:50] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Spawned Manaphy at: world x:-380, y:66, z:11
+[00:25:57] [Server thread/WARN] [net.minecraft.world.WorldServer]: Keeping entity pixelmon:pixelmon that already exists with UUID 3336bc79-8a36-4fc7-808f-13b260bac379
+[00:26:15] [Server thread/WARN] [net.minecraft.world.WorldServer]: Keeping entity pixelmon:pixelmon that already exists with UUID 3336bc79-8a36-4fc7-808f-13b260bac379
+[00:27:01] [Server thread/INFO] [net.minecraft.network.NetHandlerPlayServer]: WilddHunter lost connection: Disconnected
+[00:27:01] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: WilddHunter left the game
+[00:40:45] [Server thread/WARN] [net.minecraft.world.WorldServer]: Keeping entity pixelmon:pixelmon that already exists with UUID 3336bc79-8a36-4fc7-808f-13b260bac379
+[00:43:02] [Server thread/WARN] [net.minecraft.network.NetHandlerPlayServer]: odin moved wrongly!
+[00:43:18] [Server thread/WARN] [net.minecraft.network.NetHandlerPlayServer]: Honchkrow moved wrongly!
+[00:43:18] [Server thread/WARN] [net.minecraft.network.NetHandlerPlayServer]: Honchkrow moved wrongly!
+[00:43:24] [Server thread/WARN] [net.minecraft.network.NetHandlerPlayServer]: odin moved wrongly!
+[00:43:37] [Server thread/WARN] [net.minecraft.world.WorldServer]: Keeping entity pixelmon:pixelmon that already exists with UUID 1dc13a52-ce4e-4738-bcd3-9c744e0f35a4
+[00:44:32] [Server thread/WARN] [net.minecraft.world.WorldServer]: Keeping entity pixelmon:pixelmon that already exists with UUID 1dc13a52-ce4e-4738-bcd3-9c744e0f35a4
+[00:45:21] [Server thread/WARN] [net.minecraft.network.NetHandlerPlayServer]: odin moved too quickly! 0.49925910702688725,-30.72721774168423,0.20233342801412846
+[00:45:51] [Server thread/WARN] [net.minecraft.world.WorldServer]: Keeping entity pixelmon:pixelmon that already exists with UUID 3336bc79-8a36-4fc7-808f-13b260bac379
+[00:48:44] [Server thread/WARN] [net.minecraft.world.WorldServer]: Keeping entity pixelmon:pixelmon that already exists with UUID 3336bc79-8a36-4fc7-808f-13b260bac379
+[00:50:35] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [Pixelmon] Kyogre has appeared in a den in a Ocean biome!
+[00:50:35] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Spawned Kyogre at: world x:-709, y:63, z:-293
+[00:51:06] [Server thread/WARN] [net.minecraft.world.WorldServer]: Keeping entity pixelmon:pixelmon that already exists with UUID a295d123-1abe-47c3-be2a-3b3048516d33
+[00:52:35] [Server thread/WARN] [net.minecraft.world.WorldServer]: Keeping entity pixelmon:pixelmon that already exists with UUID 1dc13a52-ce4e-4738-bcd3-9c744e0f35a4
+[00:52:42] [Server thread/WARN] [net.minecraft.world.WorldServer]: Keeping entity pixelmon:pixelmon that already exists with UUID b63a9ee1-38de-435a-9ba5-72089088ea24
+[00:53:08] [Server thread/WARN] [net.minecraft.world.WorldServer]: Keeping entity pixelmon:pixelmon that already exists with UUID b63a9ee1-38de-435a-9ba5-72089088ea24
+[00:54:03] [Server thread/INFO] [net.minecraft.network.NetHandlerPlayServer]: odin lost connection: Disconnected
+[00:54:03] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: odin left the game
+[00:54:33] [Netty Epoll Server IO #0/INFO] [FML]: Client protocol version 2
+[00:54:33] [Netty Epoll Server IO #0/INFO] [FML]: Client attempting to join with 7 mods : minecraft@1.12.2,FML@8.0.99.99,forge@14.23.5.2860,xaerominimap@22.3.1,mcp@9.42,xaerominimap_core@1.12.2-1.0,pixelmon@8.3.6
+[00:54:34] [Server thread/INFO] [FML]: [Server thread] Server side modded connection established
+[00:54:34] [Server thread/INFO] [net.minecraft.server.management.PlayerList]: WilddHunter[/186.224.24.211:4546] logged in with entity id 150855 at (2824.563857329297, 88.0, -152.56764021602302)
+[00:54:34] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: WilddHunter joined the game
+[00:54:41] [Server thread/INFO] [net.minecraft.network.NetHandlerPlayServer]: WilddHunter lost connection: Disconnected
+[00:54:41] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: WilddHunter left the game
+[12:36:45] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: --- Showing help page 1 of 15 (/help <page>) ---
+[12:36:45] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: /advancement <grant|revoke|test> <player>
+[12:36:45] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: /ban <name> [reason ...]
+[12:36:45] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: /ban-ip <address|name> [reason ...]
+[12:36:45] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: /banlist [ips|players]
+[12:36:45] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: /blockdata <x> <y> <z> <dataTag>
+[12:36:45] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: /breed <username> <party slot #1> <party slot #2>
+[12:36:45] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: /catchingcharm [player]
+[12:36:45] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Tip: Use the <tab> key while typing a command to auto-complete the command or its arguments
+[12:37:20] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Game rule drowningDamage has been updated to false
+[12:39:40] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Saving is already turned on
+[12:41:10] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Stopping the server
+[12:41:10] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Stopping server
+[12:41:10] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Saving players
+[12:41:10] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Saving worlds
+[12:41:10] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Saving chunks for level 'world'/overworld
+[12:41:10] [Server thread/INFO] [FML]: Unloading dimension 0
+[12:41:10] [Server Shutdown Thread/INFO] [net.minecraft.server.MinecraftServer]: Stopping server
+[12:41:10] [Server Shutdown Thread/INFO] [net.minecraft.server.MinecraftServer]: Saving players
+[12:41:10] [Server Shutdown Thread/INFO] [net.minecraft.server.MinecraftServer]: Saving worlds
