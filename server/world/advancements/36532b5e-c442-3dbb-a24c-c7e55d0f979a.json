@@ -65,6 +65,12 @@
     },
     "done": true
   },
+  "pixelmon:types/capture_grass_10": {
+    "criteria": {
+      "capture_grass_10": "2022-03-23 20:55:29 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/lime_concrete_powder": {
     "criteria": {
       "has_gravel": "2022-03-14 23:23:17 +0000"
@@ -104,6 +110,12 @@
   "minecraft:recipes/tools/golden_hoe": {
     "criteria": {
       "has_gold_ingot": "2022-03-14 23:22:06 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/bread": {
+    "criteria": {
+      "has_wheat": "2022-03-24 02:46:23 +0000"
     },
     "done": true
   },
@@ -174,6 +186,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/decorations/torch": {
+    "criteria": {
+      "has_stone_pickaxe": "2022-03-24 19:23:48 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/redstone/wooden_pressure_plate": {
     "criteria": {
       "has_planks": "2022-03-14 23:39:13 +0000"
@@ -201,6 +219,12 @@
   "minecraft:recipes/redstone/acacia_fence_gate": {
     "criteria": {
       "has_planks": "2022-03-15 02:04:42 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/coal_block": {
+    "criteria": {
+      "has_at_least_9_coal": "2022-03-24 19:24:58 +0000"
     },
     "done": true
   },
@@ -439,6 +463,12 @@
     },
     "done": true
   },
+  "minecraft:story/iron_tools": {
+    "criteria": {
+      "iron_pickaxe": "2022-03-24 19:31:02 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/coarse_dirt": {
     "criteria": {
       "has_gravel": "2022-03-14 23:23:17 +0000"
@@ -484,6 +514,12 @@
   "minecraft:recipes/building_blocks/light_blue_concrete_powder": {
     "criteria": {
       "has_gravel": "2022-03-14 23:23:17 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/coal": {
+    "criteria": {
+      "has_the_recipe": "2022-03-24 19:24:58 +0000"
     },
     "done": true
   },
@@ -734,6 +770,12 @@
     },
     "done": true
   },
+  "pixelmon:balls/net_ball_capture": {
+    "criteria": {
+      "net_ball_capture": "2022-03-23 21:44:12 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/tools/iron_hoe": {
     "criteria": {
       "has_iron_ingot": "2022-03-14 23:22:06 +0000"
@@ -743,6 +785,12 @@
   "minecraft:recipes/tools/wooden_pickaxe": {
     "criteria": {
       "has_stick": "2022-03-15 02:17:38 +0000"
+    },
+    "done": true
+  },
+  "pixelmon:types/capture_fire_10": {
+    "criteria": {
+      "capture_fire_10": "2022-03-24 02:25:06 +0000"
     },
     "done": true
   },
@@ -862,6 +910,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/misc/bowl": {
+    "criteria": {
+      "has_brown_mushroom": "2022-03-23 18:02:34 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/birch_stairs": {
     "criteria": {
       "has_planks": "2022-03-14 23:39:13 +0000"
@@ -952,9 +1006,21 @@
     },
     "done": true
   },
+  "pixelmon:recipes/machines/mechanical_anvil": {
+    "criteria": {
+      "has_furnace": "2022-03-24 19:29:33 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/stone_stairs": {
     "criteria": {
       "has_cobblestone": "2022-03-14 23:23:17 +0000"
+    },
+    "done": true
+  },
+  "pixelmon:recipes/machines/infuser": {
+    "criteria": {
+      "has_furnace": "2022-03-24 19:29:33 +0000"
     },
     "done": true
   },
@@ -973,6 +1039,12 @@
   "minecraft:recipes/building_blocks/polished_diorite": {
     "criteria": {
       "has_stone": "2022-03-14 23:23:24 +0000"
+    },
+    "done": true
+  },
+  "minecraft:story/upgrade_tools": {
+    "criteria": {
+      "stone_pickaxe": "2022-03-24 19:23:48 +0000"
     },
     "done": true
   },
